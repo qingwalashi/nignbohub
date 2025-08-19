@@ -1,0 +1,22 @@
+# Ignore cache directory
+cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS / Editors
+.DS_Store
+.vscode/
+.idea/
+
+# Node / Web tooling (if any)
+node_modules/
+
+# Misc
+.env
+.env.*
+.cache/
