@@ -114,8 +114,11 @@ window.onload = function() {
         // If a different district was selected, reset its style
         if (selectedDistrictId !== null) {
             if (currentDisplayMode === 'boundary') {
-                const oldPolygon = polygons.get(selectedDistrictId);
-                if (oldPolygon) oldPolygon.setStyle(defaultStyle);
+                const oldPolys = polygons.get(selectedDistrictId);
+                if (oldPolys) {
+                    const arr = Array.isArray(oldPolys) ? oldPolys : [oldPolys];
+                    arr.forEach(poly => poly.setStyle(defaultStyle));
+                }
             }
 
             const oldLi = districtList.querySelector(`li[data-id='${selectedDistrictId}']`);
