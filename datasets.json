@@ -1,6 +1,12 @@
 {
   "datasets": [
     {
+      "id": "ningbo_cgcs2000",
+      "name": "宁波区县（CGCS2000）",
+      "boundary_file": "ningbo_boundaries_cgcs2000.json",
+      "point_file": "ningbo_boundaries_cgcs2000.json"
+    },
+    {
       "id": "ningbo_cbd_cgcs2000",
       "name": "宁波商圈（CGCS2000）",
       "boundary_file": "ningbo_cbd_boundaries_cgcs2000.json",
