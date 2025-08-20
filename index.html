@@ -5,173 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>宁波边界地图</title>
     <script src="https://api.tianditu.gov.cn/api?v=4.0&tk=3d4757a18f713979f800910387f33305" type="text/javascript"></script>
-    <style>
-        :root{
-            /* Light theme */
-            --bg:#f5f7fb;           /* light app background */
-            --panel:#ffffff;        /* white panel */
-            --panel-2:#ffffff;
-            --border:#e5e7eb;       /* light border */
-            --muted:#6b7280;        /* gray-500 */
-            --text:#111827;         /* gray-900 */
-            --primary:#2563eb;      /* blue-600 */
-            --primary-600:#1d4ed8;  /* blue-700 */
-            --accent:#0ea5e9;       /* sky-500 */
-            --shadow:0 6px 24px rgba(0,0,0,.08);
-            --radius:10px;
-        }
-        *{ box-sizing: border-box; }
-        html, body{ height:100%; }
-        body{ margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; background:var(--bg); color:var(--text); }
-
-        #app-container{ display:flex; height:100vh; }
-        #sidebar{
-            width: 320px;
-            background: var(--panel);
-            padding: 18px;
-            box-shadow: var(--shadow);
-            z-index: 1000;
-            display: flex;
-            flex-direction: column;
-            gap: 14px;
-            border-right: 1px solid var(--border);
-        }
-        #map{ flex-grow:1; height:100%; }
-
-        /* Titles injected by JS */
-        #dataset-name{ margin: 0 0 10px 0; font-weight: 700; letter-spacing: .2px; color: var(--text); }
-
-        /* Controls */
-        .control{ display:block; margin-bottom: 4px; color: var(--muted); font-size: 12px; }
-        .select, #search-box, .btn, #items-per-page{
-            width: 100%;
-            padding: 10px 12px;
-            background: #ffffff;
-            color: var(--text);
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            outline: none;
-            transition: border-color .2s ease, box-shadow .2s ease, background .2s ease;
-        }
-        .select:focus, #search-box:focus, #items-per-page:focus{ border-color: var(--primary); box-shadow: 0 0 0 3px rgba(37,99,235,.15); }
-        #search-box{ margin-bottom: 10px; }
-
-        /* List */
-        #district-list{ list-style:none; padding:0; margin:0; overflow-y:auto; flex-grow:1; border: 1px solid var(--border); border-radius: var(--radius); background: #ffffff; }
-        #district-list li{ padding: 10px 12px; border-bottom: 1px solid #f1f5f9; cursor: pointer; transition: background .15s ease, color .15s ease; }
-        #district-list li:hover{ background: #f8fafc; }
-        #district-list li.selected{ background: rgba(37,99,235,.08); color: #0f172a; border-left: 3px solid var(--primary); }
-
-        /* Pagination */
-        #pagination-controls{ display:grid; grid-template-columns: auto 1fr auto auto; gap: 8px; align-items:center; padding-top: 10px; }
-        #page-info{ font-size: 13px; color: var(--muted); margin: 0; justify-self: center; white-space: nowrap; }
-        .btn{ cursor: pointer; background:#ffffff; border:1px solid var(--border); color:var(--text); border-radius: var(--radius); padding: 8px 12px; white-space: nowrap; min-width: 72px; text-align: center; }
-        .btn:hover{ border-color: var(--primary); background: #f8fafc; }
-        .btn:disabled{ cursor: not-allowed; opacity: .5; }
-
-        /* Scrollbar (WebKit) */
-        #district-list::-webkit-scrollbar{ width: 10px; }
-        #district-list::-webkit-scrollbar-thumb{ background: #cbd5e1; border-radius: 10px; border: 2px solid #ffffff; }
-        #district-list::-webkit-scrollbar-track{ background: transparent; }
-
-        /* Hamburger & responsive */
-        #hamburger{
-            position: fixed;
-            top: 12px;
-            left: 12px;
-            z-index: 1100;
-            padding: 10px 12px;
-            border-radius: var(--radius);
-            border: 1px solid var(--border);
-            background: #ffffff;
-            color: var(--text);
-            box-shadow: var(--shadow);
-            cursor: pointer;
-            transition: transform 0.3s ease;
-        }
-        #hamburger .bar{ display:block; width:22px; height:2px; background: var(--text); margin:4px 0; transition: transform .2s ease, opacity .2s ease; }
-
-        #backdrop{
-            position: fixed;
-            inset: 0;
-            background: rgba(0,0,0,.35);
-            z-index: 900;
-            opacity: 0;
-            pointer-events: none;
-            transition: opacity .2s ease;
-        }
-
-        /* Mobile: sidebar collapsible */
-        @media (max-width: 768px){
-            #app-container{ position: relative; }
-            #sidebar{
-                position: fixed;
-                left: 0; top: 0; bottom: 0;
-                transform: translateX(-100%);
-                transition: transform .3s cubic-bezier(0.4, 0, 0.2, 1);
-                max-width: 86vw;
-            }
-            body.sidebar-open #sidebar{ transform: translateX(0); }
-            body.sidebar-open #backdrop{ opacity: 1; pointer-events: auto; }
-
-            /* Position close button in top-right of sidebar when open */
-            body.sidebar-open #hamburger{
-                position: absolute;
-                top: 12px;
-                right: 12px;
-                left: auto;
-                transform: none;
-                background: #ffffff;
-                z-index: 1101; /* Above sidebar content */
-            }
-            body.sidebar-open #hamburger .bar:nth-child(1){
-                transform: translateY(6px) rotate(45deg);
-            }
-            body.sidebar-open #hamburger .bar:nth-child(2){
-                opacity: 0;
-            }
-            body.sidebar-open #hamburger .bar:nth-child(3){
-                transform: translateY(-6px) rotate(-45deg);
-            }
-        }
-
-        /* Toggle switches */
-        .toggle-container{ display: flex; gap: 8px; margin-top: 4px; }
-        .toggle-switch{ flex: 1; }
-        .toggle-switch input[type="radio"]{ display: none; }
-        .toggle-label{
-            display: block;
-            padding: 8px 12px;
-            background: #ffffff;
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            text-align: center;
-            cursor: pointer;
-            transition: all .2s ease;
-            font-size: 13px;
-            color: var(--text);
-        }
-        .toggle-switch input[type="radio"]:checked + .toggle-label{
-            background: var(--primary);
-            color: white;
-            border-color: var(--primary);
-        }
-        .toggle-label:hover{
-            border-color: var(--primary);
-            background: #f8fafc;
-        }
-        .toggle-switch input[type="radio"]:checked + .toggle-label:hover{
-            background: var(--primary-600);
-        }
-
-        /* Desktop: hamburger hidden */
-        @media (min-width: 769px){
-            #backdrop{ display:none; }
-            #hamburger{ display:none; }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+        <div class="tool-menu">
+        <button class="tool-menu-btn">工具</button>
+        <div class="dropdown-content">
+            <a href="geojson-extractor.html">geojson提取</a>
+        </div>
+    </div>
     <button id="hamburger" aria-label="展开菜单">
         <span class="bar"></span>
         <span class="bar"></span>
@@ -219,5 +61,28 @@
     <div id="backdrop"></div>
 
     <script src="map.js"></script>
+    <script>
+    (function(){
+        const menu = document.querySelector('.tool-menu');
+        const btn = document.querySelector('.tool-menu-btn');
+        if(!menu || !btn) return;
+
+        // Toggle on button click
+        btn.addEventListener('click', function(e){
+            e.stopPropagation();
+            menu.classList.toggle('open');
+        });
+
+        // Prevent clicks inside menu from closing it
+        menu.addEventListener('click', function(e){
+            e.stopPropagation();
+        });
+
+        // Click outside closes
+        document.addEventListener('click', function(){
+            menu.classList.remove('open');
+        });
+    })();
+    </script>
 </body>
 </html>

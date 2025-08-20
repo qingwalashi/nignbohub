@@ -97,8 +97,11 @@ window.onload = function() {
         // If the clicked district is already selected, deselect it
         if (districtId === selectedDistrictId) {
             if (currentDisplayMode === 'boundary') {
-                const oldPolygon = polygons.get(selectedDistrictId);
-                if (oldPolygon) oldPolygon.setStyle(defaultStyle);
+                const oldPolys = polygons.get(selectedDistrictId);
+                if (oldPolys) {
+                    const arr = Array.isArray(oldPolys) ? oldPolys : [oldPolys];
+                    arr.forEach(poly => poly.setStyle(defaultStyle));
+                }
             }
 
             const oldLi = districtList.querySelector(`li[data-id='${selectedDistrictId}']`);
@@ -124,16 +127,25 @@ window.onload = function() {
 
         // Apply new styles and open info window for the new selection
         if (currentDisplayMode === 'boundary') {
-            const newPolygon = polygons.get(districtId);
-            if (newPolygon) {
-                newPolygon.setStyle(selectedStyle);
-                map.setViewport(newPolygon.getLngLats()[0]);
+            const newPolys = polygons.get(districtId);
+            if (newPolys) {
+                const arr = Array.isArray(newPolys) ? newPolys : [newPolys];
+                arr.forEach(poly => poly.setStyle(selectedStyle));
+
+                // Set viewport to cover all polygons for this district
+                try {
+                    const allPts = arr.flatMap(p => (p.getLngLats()[0] || []));
+                    if (allPts.length) map.setViewport(allPts);
+                } catch (e) {}
 
                 const infoWin = infoWindows.get(districtId);
                 if (infoWin) {
-                    // Use provided click coordinates or the polygon's center
-                    const position = lnglat || newPolygon.getBounds().getCenter();
-                    map.openInfoWindow(infoWin, position);
+                    // Use provided click coordinates or the first polygon center
+                    let position = lnglat;
+                    if (!position && arr.length > 0) {
+                        try { position = arr[0].getBounds().getCenter(); } catch (e) {}
+                    }
+                    if (position) map.openInfoWindow(infoWin, position);
                 }
             }
         } else {
@@ -165,9 +177,10 @@ window.onload = function() {
 
         filteredDistricts.forEach(area => {
             if (currentDisplayMode === 'boundary') {
-                const polygon = polygons.get(area.id);
-                if (polygon) {
-                    map.addOverLay(polygon);
+                const polyOrArr = polygons.get(area.id);
+                if (polyOrArr) {
+                    const arr = Array.isArray(polyOrArr) ? polyOrArr : [polyOrArr];
+                    arr.forEach(poly => map.addOverLay(poly));
                 }
             } else {
                 const marker = markers.get(area.id);
@@ -328,35 +341,79 @@ window.onload = function() {
             data.forEach((area, index) => {
                 area.id = index; // Assign a simple unique ID
 
-                if (area.polylines && area.polylines.length > 0 && area.polylines[0].length > 0) {
-                    const points = area.polylines[0].map(p => new T.LngLat(p[0], p[1]));
-                    
-                    // Create polygon for boundary mode
-                    const polygon = new T.Polygon(points, defaultStyle);
-                    polygons.set(area.id, polygon);
-                    
-                    // Create marker for point mode (using centroid of polygon)
-                    const centroid = calculateCentroid(points);
-                    const marker = new T.Marker(centroid);
-                    markers.set(area.id, marker);
+                if (area.polylines && area.polylines.length > 0) {
+                    // Support Polygon: polylines[0] = ring (points)
+                    // Support MultiPolygon: polylines = [ [ring], [ring], ... ] or deeper [[[points]]]
+                    // Normalize to an array of rings (each ring is array of [lng,lat])
+                    let rings = [];
+                    try {
+                        if (Array.isArray(area.polylines[0][0]) && typeof area.polylines[0][0][0] === 'number') {
+                            // Polygon: [ [lng,lat], ... ]
+                            rings = [area.polylines[0]];
+                        } else if (Array.isArray(area.polylines[0][0]) && Array.isArray(area.polylines[0][0][0])) {
+                            // MultiPolygon or nested: [ [ [lng,lat], ... ] , ... ]
+                            rings = area.polylines.flat(1);
+                        } else {
+                            // Fallback: try to flatten deeper
+                            rings = area.polylines.flat(2);
+                        }
+                    } catch (e) {
+                        rings = [];
+                    }
 
-                    const infoWin = new T.InfoWindow();
-                    infoWin.setContent(`<b>${area.name}</b><br>(${area.county})`);
-                    infoWindows.set(area.id, infoWin);
+                    // Build polygons for each ring
+                    const polys = [];
+                    rings.forEach(ring => {
+                        if (Array.isArray(ring) && ring.length > 2 && typeof ring[0][0] === 'number') {
+                            const pts = ring.map(p => new T.LngLat(p[0], p[1]));
+                            const poly = new T.Polygon(pts, defaultStyle);
+                            // Click event for selection
+                            poly.addEventListener("click", (e) => {
+                                selectDistrict(area.id, e.lnglat);
+                            });
+                            polys.push(poly);
+                        }
+                    });
 
-                    // Add click events for both polygon and marker
-                    polygon.addEventListener("click", (e) => {
-                        selectDistrict(area.id, e.lnglat);
-                    });
-                    
-                    marker.addEventListener("click", (e) => {
-                        selectDistrict(area.id, e.lnglat);
-                    });
+                    if (polys.length > 0) {
+                        // Store as array to support MultiPolygon uniformly
+                        polygons.set(area.id, polys);
+
+                        // Marker: use centroid of first ring
+                        const firstPts = polys[0].getLngLats()[0] || [];
+                        if (firstPts.length > 0) {
+                            const centroid = calculateCentroid(firstPts);
+                            const marker = new T.Marker(centroid);
+                            marker.addEventListener("click", (e) => {
+                                selectDistrict(area.id, e.lnglat);
+                            });
+                            markers.set(area.id, marker);
+                        }
+
+                        const infoWin = new T.InfoWindow();
+                        infoWin.setContent(`<b>${area.name}</b><br>(${area.county})`);
+                        infoWindows.set(area.id, infoWin);
+                    }
                 }
             });
 
             // Set initial map view
-            const allPointsForViewport = data.flatMap(area => area.polylines?.[0]?.map(p => new T.LngLat(p[0], p[1])) ?? []);
+            const allPointsForViewport = data.flatMap(area => {
+                if (!area.polylines) return [];
+                // Flatten possible MultiPolygon rings
+                let rings;
+                try {
+                    if (Array.isArray(area.polylines[0][0]) && typeof area.polylines[0][0][0] === 'number') {
+                        rings = [area.polylines[0]];
+                    } else if (Array.isArray(area.polylines[0][0]) && Array.isArray(area.polylines[0][0][0])) {
+                        rings = area.polylines.flat(1);
+                    } else {
+                        rings = area.polylines.flat(2);
+                    }
+                } catch (e) { rings = []; }
+                const firstRing = rings[0] || [];
+                return firstRing.map(p => new T.LngLat(p[0], p[1]));
+            });
             if (allPointsForViewport.length > 0) {
                 map.setViewport(allPointsForViewport);
             }

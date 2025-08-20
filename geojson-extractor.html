@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoJSON Polygon/MultiPolygon 提取工具</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-container">
+        <a href="index.html" class="btn" style="display: inline-block; width: auto; margin-bottom: 20px; background-color: var(--muted); border-color: var(--muted);">返回主页</a>
+        <h1>GeoJSON Polygon/MultiPolygon 提取工具</h1>
+        
+        <div>
+            <label for="geojson-input" class="control">输入GeoJSON:</label>
+            <textarea id="geojson-input" placeholder='{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [[[[102.0, 2.0], [103.0, 2.0], [103.0, 3.0], [102.0, 3.0], [102.0, 2.0]]]]
+      },
+      "properties": {}
+    }
+  ]
+}' style="height: 250px; font-family: monospace; margin-bottom: 10px;"></textarea>
+        </div>
+        
+        <button id="extract-button" class="btn">提取 Polygon/MultiPolygon</button>
+        
+        <div id="error-message" class="error" style="display: none;"></div>
+        <div id="info-message" class="info" style="display: none;"></div>
+        
+        <div class="result-container">
+            <h2>提取结果</h2>
+            <div id="results"></div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('extract-button').addEventListener('click', function() {
+            const geojsonInput = document.getElementById('geojson-input').value;
+            const errorElement = document.getElementById('error-message');
+            const infoElement = document.getElementById('info-message');
+            const resultsContainer = document.getElementById('results');
+            
+            // 清空之前的结果和错误信息
+            errorElement.style.display = 'none';
+            infoElement.style.display = 'none';
+            resultsContainer.innerHTML = '';
+            
+            try {
+                const geojson = JSON.parse(geojsonInput);
+                const polygons = extractPolygons(geojson);
+                
+                if (polygons.length === 0) {
+                    infoElement.textContent = '输入的GeoJSON中没有找到 Polygon 或 MultiPolygon 要素。';
+                    infoElement.style.display = 'block';
+                    return;
+                }
+                
+                infoElement.textContent = `找到 ${polygons.length} 个 Polygon/MultiPolygon 要素。`;
+                infoElement.style.display = 'block';
+                
+                polygons.forEach((p, index) => {
+                    const resultDiv = document.createElement('div');
+                    resultDiv.className = 'result';
+                    
+                    const title = document.createElement('h3');
+                    title.textContent = `${p.geometry.type} ${index + 1}`;
+                    resultDiv.appendChild(title);
+
+                    // 1) 其他信息（去除coordinates，保留并格式化）
+                    const metaLabel = document.createElement('div');
+                    metaLabel.className = 'control';
+                    metaLabel.textContent = '其他信息';
+                    resultDiv.appendChild(metaLabel);
+
+                    const metaPre = document.createElement('pre');
+                    try {
+                        const meta = JSON.parse(JSON.stringify(p));
+                        if (meta && meta.type === 'Feature' && meta.geometry) {
+                            if (meta.geometry.hasOwnProperty('coordinates')) delete meta.geometry.coordinates;
+                        } else if (meta && meta.hasOwnProperty('coordinates')) {
+                            delete meta.coordinates;
+                        }
+                        metaPre.textContent = JSON.stringify(meta, null, 2);
+                    } catch (e) {
+                        metaPre.textContent = '无法格式化其他信息';
+                    }
+                    resultDiv.appendChild(metaPre);
+
+                    // 2) 仅coordinates（不格式化，自动换行由CSS处理）
+                    const coordsLabel = document.createElement('div');
+                    coordsLabel.className = 'control';
+                    coordsLabel.textContent = 'coordinates';
+                    resultDiv.appendChild(coordsLabel);
+
+                    const coordsPre = document.createElement('pre');
+                    const coords = p && p.geometry ? p.geometry.coordinates : p.coordinates;
+                    const coordsStr = JSON.stringify(coords);
+                    coordsPre.textContent = coordsStr;
+                    resultDiv.appendChild(coordsPre);
+
+                    // 复制按钮
+                    const copyBtn = document.createElement('button');
+                    copyBtn.className = 'btn';
+                    copyBtn.style.marginTop = '8px';
+                    copyBtn.textContent = '复制 coordinates';
+                    copyBtn.addEventListener('click', async (e) => {
+                        e.stopPropagation();
+                        try {
+                            await navigator.clipboard.writeText(coordsStr);
+                            const oldText = copyBtn.textContent;
+                            copyBtn.textContent = '已复制';
+                            setTimeout(() => copyBtn.textContent = oldText, 1200);
+                        } catch (err) {
+                            // 兼容性降级：创建临时textarea
+                            const ta = document.createElement('textarea');
+                            ta.value = coordsStr;
+                            document.body.appendChild(ta);
+                            ta.select();
+                            try { document.execCommand('copy'); } catch (_) {}
+                            document.body.removeChild(ta);
+                            const oldText = copyBtn.textContent;
+                            copyBtn.textContent = '已复制';
+                            setTimeout(() => copyBtn.textContent = oldText, 1200);
+                        }
+                    });
+                    resultDiv.appendChild(copyBtn);
+                    
+                    resultsContainer.appendChild(resultDiv);
+                });
+                
+            } catch (error) {
+                errorElement.textContent = `错误: ${error.message}`;
+                errorElement.style.display = 'block';
+            }
+        });
+        
+        function extractPolygons(geojson) {
+            const multiPolygons = [];
+            
+            if (!geojson || typeof geojson !== 'object') {
+                throw new Error('无效的GeoJSON输入');
+            }
+            
+            // 处理不同类型的GeoJSON输入
+            switch (geojson.type) {
+                case 'FeatureCollection':
+                    if (Array.isArray(geojson.features)) {
+                        geojson.features.forEach(feature => {
+                            if (feature.geometry && (feature.geometry.type === 'MultiPolygon' || feature.geometry.type === 'Polygon')) {
+                                multiPolygons.push({
+                                    type: 'Feature',
+                                    geometry: feature.geometry,
+                                    properties: feature.properties || {}
+                                });
+                            }
+                        });
+                    }
+                    break;
+                    
+                case 'Feature':
+                    if (geojson.geometry && (geojson.geometry.type === 'MultiPolygon' || geojson.geometry.type === 'Polygon')) {
+                        multiPolygons.push({
+                            type: 'Feature',
+                            geometry: geojson.geometry,
+                            properties: geojson.properties || {}
+                        });
+                    }
+                    break;
+                    
+                case 'MultiPolygon':
+                case 'Polygon':
+                    multiPolygons.push({
+                        type: 'MultiPolygon',
+                        coordinates: geojson.coordinates
+                    });
+                    break;
+                    
+                default:
+                    // For other types, we don't throw an error, just return empty results.
+            }
+            
+            return multiPolygons;
+        }
+    </script>
+</body>
+</html>
