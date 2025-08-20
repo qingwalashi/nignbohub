@@ -3,13 +3,13 @@ import copy
 from pyproj import CRS, Transformer
 
 # Define file paths
-INPUT_FILE = 'ningbo_school_boundaries.json'
-OUTPUT_FILE = 'ningbo_school_boundaries_cgcs2000.json'
+INPUT_FILE = 'ningbo_cbd_boundaries.json'
+OUTPUT_FILE = 'ningbo_cbd_boundaries_cgcs2000.json'
 
 def convert_coordinates():
     """
     Reads boundary data, converts coordinates from WGS 84 to CGCS2000,
-    and saves the result to a new JSON file.
+    including both polylines and centroid fields, and saves the result to a new JSON file.
     """
     print(f"Loading data from {INPUT_FILE}...")
     try:
@@ -34,11 +34,21 @@ def convert_coordinates():
     print("Starting coordinate conversion (WGS 84 -> CGCS2000)...")
     conversion_count = 0
 
-    for area in converted_data:
+    # Handle different data structures - check if data has 'features' array
+    if isinstance(converted_data, dict) and 'features' in converted_data:
+        areas_to_process = converted_data['features']
+    elif isinstance(converted_data, list):
+        areas_to_process = converted_data
+    else:
+        print("Error: Unexpected data structure in input file.")
+        return
+
+    for area in areas_to_process:
         # Update the source field
         if 'source' in area:
             area['source'] = 'Tianditu'
 
+        # Convert polylines coordinates
         if 'polylines' in area and isinstance(area['polylines'], list):
             new_polylines = []
             for polyline in area['polylines']:
@@ -52,6 +62,14 @@ def convert_coordinates():
                         conversion_count += 1
                 new_polylines.append(new_polyline)
             area['polylines'] = new_polylines
+
+        # Convert centroid coordinates
+        if 'centroid' in area and isinstance(area['centroid'], list) and len(area['centroid']) == 2:
+            lon, lat = area['centroid']
+            # Perform the conversion
+            cgcs2000_lon, cgcs2000_lat = transformer.transform(lon, lat)
+            area['centroid'] = [cgcs2000_lon, cgcs2000_lat]
+            conversion_count += 1
 
     print(f"Successfully converted {conversion_count} coordinate points.")
 

@@ -5,7 +5,7 @@
             "city": "宁波市",
             "county": "海曙区",
             "name": "和义大道购物中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -526,13 +526,17 @@
                         29.8751831
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55125356475016,
+                29.87610320842574
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "新华联商厦",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -705,13 +709,17 @@
                         29.8747172
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55155865227142,
+                29.874508497993183
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "城隍庙商业步行街",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -764,13 +772,17 @@
                         29.86902
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54703068512927,
+                29.86856859244846
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "SCP!芝士",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -883,13 +895,17 @@
                         29.868699
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5542146090027,
+                29.868120247521244
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "天一广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -978,13 +994,17 @@
                         29.8699092
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5499107907829,
+                29.871874217109987
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "宁波第二百货",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -1133,13 +1153,17 @@
                         29.8731639
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55304339095842,
+                29.872789006627492
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "银泰百货(东门口店)",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -1288,13 +1312,17 @@
                         29.8722543
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55384946415393,
+                29.872228102017463
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "亚细亚",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -1475,13 +1503,17 @@
                         29.8700232
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5474213184763,
+                29.869730844002433
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "快件投递站",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -1506,13 +1538,17 @@
                         29.8198213
                     ]
                 ]
+            ],
+            "centroid": [
+                121.46454611654548,
+                29.81964157783699
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "洛兹商业广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -1537,13 +1573,17 @@
                         29.8307976
                     ]
                 ]
+            ],
+            "centroid": [
+                121.50376840156308,
+                29.83032753323221
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "宁波轻纺城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -1576,13 +1616,17 @@
                         29.8345437
                     ]
                 ]
+            ],
+            "centroid": [
+                121.50622478835561,
+                29.832646450826495
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "南塘老街",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -1859,13 +1903,17 @@
                         29.8567484
                     ]
                 ]
+            ],
+            "centroid": [
+                121.53392738862888,
+                29.856101334316698
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "海曙恒一广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -1906,13 +1954,17 @@
                         29.853941
                     ]
                 ]
+            ],
+            "centroid": [
+                121.51014756339895,
+                29.853460376504504
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "高鑫广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -2065,13 +2117,17 @@
                         29.8990584
                     ]
                 ]
+            ],
+            "centroid": [
+                121.52136447167345,
+                29.898228061912945
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "宁波第六空间新星家居",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -2196,13 +2252,17 @@
                         29.8965784
                     ]
                 ]
+            ],
+            "centroid": [
+                121.52112442151484,
+                29.89656429649904
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "酷购商城A馆",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -2287,13 +2347,17 @@
                         29.8705425
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5486351851948,
+                29.87093306849775
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "国际购物中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -2634,13 +2698,17 @@
                         29.8731731
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54955913361786,
+                29.872977778174498
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "酷购商城B馆",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -2689,13 +2757,17 @@
                         29.8716805
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5481829156851,
+                29.87153275183736
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "杉井奥特莱斯广场·宁波",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -2744,13 +2816,17 @@
                         29.8596668
                     ]
                 ]
+            ],
+            "centroid": [
+                121.44589896288956,
+                29.860941380041815
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "恒一城市广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -2779,13 +2855,17 @@
                         29.8687981
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54863434473404,
+                29.8680612365505
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "1842广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -2838,13 +2918,17 @@
                         29.8790784
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54930077265703,
+                29.878841907122183
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "城隍商城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -2917,13 +3001,17 @@
                         29.8700901
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54612264960831,
+                29.86967141492964
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "恒通广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -2956,13 +3044,17 @@
                         29.8521669
                     ]
                 ]
+            ],
+            "centroid": [
+                121.51153846023344,
+                29.851394136870876
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "龙湖宁波海曙天街",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -3115,13 +3207,17 @@
                         29.8533133
                     ]
                 ]
+            ],
+            "centroid": [
+                121.51835829943323,
+                29.852576737893205
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "丽园尚都",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -3154,13 +3250,17 @@
                         29.8746115
                     ]
                 ]
+            ],
+            "centroid": [
+                121.51621398924414,
+                29.874031285285152
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "宁波鼓楼商业步行街",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -3225,13 +3325,17 @@
                         29.8761883
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54261170232357,
+                29.87762563357705
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "宁波复悦城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -3288,13 +3392,17 @@
                         29.8697013
                     ]
                 ]
+            ],
+            "centroid": [
+                121.53217651935438,
+                29.868439938942384
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "月湖新荟天地",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -3323,13 +3431,17 @@
                         29.8719102
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54184663107641,
+                29.872383157104505
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "月湖金汇小镇",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -3418,13 +3530,17 @@
                         29.8761855
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5384591058057,
+                29.875082027968613
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "宁波大公馆",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -3449,13 +3565,17 @@
                         29.8739292
                     ]
                 ]
+            ],
+            "centroid": [
+                121.52817159097411,
+                29.873632045690893
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "交通·BOBO国际",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -3496,13 +3616,17 @@
                         29.8891477
                     ]
                 ]
+            ],
+            "centroid": [
+                121.53020038772263,
+                29.88890080395452
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "天胜花鸟",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -3531,13 +3655,17 @@
                         29.8929807
                     ]
                 ]
+            ],
+            "centroid": [
+                121.51668572718025,
+                29.892196294879437
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "恒茂商业广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -3570,13 +3698,17 @@
                         29.8944574
                     ]
                 ]
+            ],
+            "centroid": [
+                121.51633547215815,
+                29.893755651282127
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "望湖市场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -3613,13 +3745,17 @@
                         29.8637821
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54017568372761,
+                29.863317259314286
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "古林集贸市场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -3644,13 +3780,17 @@
                         29.8361594
                     ]
                 ]
+            ],
+            "centroid": [
+                121.43344245,
+                29.835839400000005
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "月湖·盛园",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -3743,13 +3883,17 @@
                         29.8664281
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54291188840338,
+                29.866230222720063
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "秀水街历史文化街区",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -3814,13 +3958,17 @@
                         29.8812057
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54473846021381,
+                29.88218643707733
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "盈隆广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -3849,13 +3997,17 @@
                         29.8630836
                     ]
                 ]
+            ],
+            "centroid": [
+                121.45605643146645,
+                29.862532199768825
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "梁祝天地",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -4000,13 +4152,17 @@
                         29.9097186
                     ]
                 ]
+            ],
+            "centroid": [
+                121.47894215585704,
+                29.907640322141294
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "壹都文化广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -4055,13 +4211,17 @@
                         29.898273
                     ]
                 ]
+            ],
+            "centroid": [
+                121.51480987653312,
+                29.89751232734901
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "银亿·时代广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -4098,13 +4258,17 @@
                         29.8670611
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54459319704141,
+                29.86608768538083
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "千润发购物广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -4133,13 +4297,17 @@
                         29.8667099
                     ]
                 ]
+            ],
+            "centroid": [
+                121.49764769102536,
+                29.866150230806184
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "大丰服饰工厂店",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -4168,13 +4336,17 @@
                         29.8845462
                     ]
                 ]
+            ],
+            "centroid": [
+                121.47556705299203,
+                29.883808880550934
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "宁波海曙印象城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -4383,13 +4555,17 @@
                         29.898459
                     ]
                 ]
+            ],
+            "centroid": [
+                121.47348769005592,
+                29.899075347057465
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "恒一广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -4426,13 +4602,17 @@
                         29.893048
                     ]
                 ]
+            ],
+            "centroid": [
+                121.46011647220284,
+                29.892657877271127
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "沿海铁路浙江公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -4469,13 +4649,17 @@
                         29.8664191
                     ]
                 ]
+            ],
+            "centroid": [
+                121.52921986150513,
+                29.86587168008649
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "宁波药材股份有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -4512,13 +4696,17 @@
                         29.8959989
                     ]
                 ]
+            ],
+            "centroid": [
+                121.52084149221533,
+                29.895357732437493
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "众创空间",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -4551,13 +4739,17 @@
                         29.8974987
                     ]
                 ]
+            ],
+            "centroid": [
+                121.51678745758917,
+                29.89693258399159
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "天一豪景",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -4582,13 +4774,17 @@
                         29.8746002
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54886472571796,
+                29.87397171593518
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "莲桥第",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -4689,13 +4885,17 @@
                         29.8665168
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54685128644552,
+                29.866641446471217
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "甬安里",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -4728,13 +4928,17 @@
                         29.8694172
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54504502849056,
+                29.86985553304534
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "宁波机场集团有限公司动力中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -4763,13 +4967,17 @@
                         29.8243332
                     ]
                 ]
+            ],
+            "centroid": [
+                121.45206963773671,
+                29.823525649590355
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "银亿环球中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -4822,13 +5030,17 @@
                         29.8716595
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55272942520605,
+                29.870586989316262
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "银泰百货(宁波天一店)",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -4893,13 +5105,17 @@
                         29.873759
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55126297473775,
+                29.873394593490662
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "天天汽车",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -4940,13 +5156,17 @@
                         29.8577021
                     ]
                 ]
+            ],
+            "centroid": [
+                121.50963158158568,
+                29.85861635080962
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "宁波市城建设计研究院有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -4971,13 +5191,17 @@
                         29.8638524
                     ]
                 ]
+            ],
+            "centroid": [
+                121.51582196084709,
+                29.86366376929028
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "灵桥广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -5038,13 +5262,17 @@
                         29.8695638
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55218016876529,
+                29.869068281774865
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "都市仁和中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -5101,13 +5329,17 @@
                         29.869794
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55079748713386,
+                29.869320878236316
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "华康名家私广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -5140,13 +5372,17 @@
                         29.8705441
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5038760066627,
+                29.870962786991715
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "集城广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -5179,13 +5415,17 @@
                         29.8718176
                     ]
                 ]
+            ],
+            "centroid": [
+                121.50026671451639,
+                29.871202705429475
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "甬水商务中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -5238,13 +5478,17 @@
                         29.860932
                     ]
                 ]
+            ],
+            "centroid": [
+                121.53093224760204,
+                29.859974976474547
             ]
         },
         {
             "city": "宁波市",
             "county": "海曙区",
             "name": "真如中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -5293,13 +5537,17 @@
                         29.889453
                     ]
                 ]
+            ],
+            "centroid": [
+                121.51874013157891,
+                29.8884401612447
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "万象城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -5484,13 +5732,17 @@
                         29.9009308
                     ]
                 ]
+            ],
+            "centroid": [
+                121.549601176104,
+                29.90104425770239
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "茂悦商业广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -5639,13 +5891,17 @@
                         29.9012952
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55688660018706,
+                29.900733432069792
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "路林市场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -5690,13 +5946,17 @@
                         29.9074467
                     ]
                 ]
+            ],
+            "centroid": [
+                121.60398271601154,
+                29.906793261188515
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁波老外滩",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -5749,13 +6009,17 @@
                         29.8776027
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55649341778299,
+                29.879130274422636
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "万达广场 (宁波江北店)",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -5816,13 +6080,17 @@
                         29.9175129
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5263475850739,
+                29.91847118611513
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "天水广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -5915,13 +6183,17 @@
                         29.9148482
                     ]
                 ]
+            ],
+            "centroid": [
+                121.53595432342708,
+                29.914083574763787
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁波绿地中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -6002,13 +6274,17 @@
                         29.8850211
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55514621575284,
+                29.883656235108237
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "来福士广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -6229,13 +6505,17 @@
                         29.8857908
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55336241924415,
+                29.885069466544643
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁波中远物流大厦",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -6260,13 +6540,17 @@
                         29.8818828
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55225260176736,
+                29.881758071485535
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "农贸",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -6351,13 +6635,17 @@
                         29.912153
                     ]
                 ]
+            ],
+            "centroid": [
+                121.63864200614621,
+                29.91326464709599
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "钻石商业广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -6402,13 +6690,17 @@
                         29.8836661
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55169257978307,
+                29.883926492216712
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "庄桥石材城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -6533,13 +6825,17 @@
                         29.9437495
                     ]
                 ]
+            ],
+            "centroid": [
+                121.53382801842827,
+                29.942564885842106
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "中体Sport城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -6608,13 +6904,17 @@
                         29.9233695
                     ]
                 ]
+            ],
+            "centroid": [
+                121.53362159914971,
+                29.921588202633522
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "北岸·星街坊",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -6659,13 +6959,17 @@
                         29.8958503
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54695609095482,
+                29.89423195040983
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "1872·花园坊",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -6798,13 +7102,17 @@
                         29.906296
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54950451636452,
+                29.906185856912316
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "浙江天能",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -6857,13 +7165,17 @@
                         29.9115576
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54752812042102,
+                29.911074268560743
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "姚江二手车交易市场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -6888,13 +7200,17 @@
                         29.9063174
                     ]
                 ]
+            ],
+            "centroid": [
+                121.56496387384963,
+                29.905566585766167
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "车源汇汽车广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -6947,13 +7263,17 @@
                         29.9125382
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5640174435412,
+                29.913062615929118
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "路劲新天地",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -7010,13 +7330,17 @@
                         29.8901626
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55798567458167,
+                29.8885277429166
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁波富力广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -7077,13 +7401,17 @@
                         29.9153899
                     ]
                 ]
+            ],
+            "centroid": [
+                121.63112490703824,
+                29.914976144382734
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁波市第一汽车市场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -7112,13 +7440,17 @@
                         29.8985576
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5705856801177,
+                29.899155433548263
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "萤集云汇中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -7171,13 +7503,17 @@
                         29.9511465
                     ]
                 ]
+            ],
+            "centroid": [
+                121.45905717834157,
+                29.95014818589917
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "前洋E商小镇",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -7238,13 +7574,17 @@
                         29.9516857
                     ]
                 ]
+            ],
+            "centroid": [
+                121.45542419878439,
+                29.95091709607522
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "云谷中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -7297,13 +7637,17 @@
                         29.9494081
                     ]
                 ]
+            ],
+            "centroid": [
+                121.45550223332769,
+                29.94832485934162
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "慈湖人家农贸市场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -7328,13 +7672,17 @@
                         29.9803846
                     ]
                 ]
+            ],
+            "centroid": [
+                121.4630393477139,
+                29.97956670931486
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "慈城老火车站 城南旧事街区",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -7395,13 +7743,17 @@
                         29.9793489
                     ]
                 ]
+            ],
+            "centroid": [
+                121.44243578003308,
+                29.97873891019321
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "恒一江北广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -7442,13 +7794,17 @@
                         29.9333672
                     ]
                 ]
+            ],
+            "centroid": [
+                121.49839121361222,
+                29.93202378632729
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁波富邦荪湖山庄",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -7581,13 +7937,17 @@
                         29.9888463
                     ]
                 ]
+            ],
+            "centroid": [
+                121.49040535489591,
+                29.98861474878575
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "江湾里",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -7696,13 +8056,17 @@
                         29.9035286
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55228789334537,
+                29.902422112993428
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "迎春里潮生活街区",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -7747,13 +8111,17 @@
                         29.9818038
                     ]
                 ]
+            ],
+            "centroid": [
+                121.45131585037315,
+                29.98044338283092
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "天合财汇中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -7786,13 +8154,17 @@
                         29.9166291
                     ]
                 ]
+            ],
+            "centroid": [
+                121.53590577164317,
+                29.915910619974202
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁深姚江里",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -7821,13 +8193,17 @@
                         29.915246
                     ]
                 ]
+            ],
+            "centroid": [
+                121.52297181535461,
+                29.914449586097508
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "绿地新都会",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -7852,13 +8228,17 @@
                         29.9658203
                     ]
                 ]
+            ],
+            "centroid": [
+                121.44524600743058,
+                29.964836494879847
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "江北宝龙广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -7899,13 +8279,17 @@
                         29.9258581
                     ]
                 ]
+            ],
+            "centroid": [
+                121.53404821596533,
+                29.924955525977335
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "星湖中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8006,13 +8390,17 @@
                         29.905281
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55195088984404,
+                29.904747107655098
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "电信实业集团宁波分公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8037,13 +8425,17 @@
                         29.8819601
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55391127400148,
+                29.881475705984897
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "凯德上江邑",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8076,13 +8468,17 @@
                         29.8872548
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55451609594391,
+                29.88649461348642
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁波中升雷克萨斯汽车服务有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8111,13 +8507,17 @@
                         29.9349225
                     ]
                 ]
+            ],
+            "centroid": [
+                121.51528847540163,
+                29.933810337081155
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁波中升丰田汽车服务有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8142,13 +8542,17 @@
                         29.9349307
                     ]
                 ]
+            ],
+            "centroid": [
+                121.51451360981686,
+                29.93399191545396
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "澳洲电子商务园区",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8181,13 +8585,17 @@
                         29.9362276
                     ]
                 ]
+            ],
+            "centroid": [
+                121.51331917729325,
+                29.935526717959643
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "广汽埃安宁波江北体验中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8236,13 +8644,17 @@
                         29.9075413
                     ]
                 ]
+            ],
+            "centroid": [
+                121.58105922345439,
+                29.90727872214661
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁波润达汽车销售服务有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8271,13 +8683,17 @@
                         29.9069038
                     ]
                 ]
+            ],
+            "centroid": [
+                121.58049430076639,
+                29.906815763683763
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宝龙文创甬江城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8406,13 +8822,17 @@
                         29.9000301
                     ]
                 ]
+            ],
+            "centroid": [
+                121.58173815262872,
+                29.89989241542912
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁波宝信汽车销售服务有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8461,13 +8881,17 @@
                         29.9029676
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5684240795672,
+                29.902343680929842
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁波文创港一期",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8504,13 +8928,17 @@
                         29.8981067
                     ]
                 ]
+            ],
+            "centroid": [
+                121.570313088332,
+                29.897553655857873
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁波文创港二期",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8563,13 +8991,17 @@
                         29.9012237
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5692797950867,
+                29.90031297722197
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "春风云筑",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8614,13 +9046,17 @@
                         29.9237509
                     ]
                 ]
+            ],
+            "centroid": [
+                121.52236046485038,
+                29.92484121203545
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁波利星汽车服务有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8657,13 +9093,17 @@
                         29.9329711
                     ]
                 ]
+            ],
+            "centroid": [
+                121.50984654432963,
+                29.933747992411575
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁波沃龙汽车服务有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8696,13 +9136,17 @@
                         29.9335104
                     ]
                 ]
+            ],
+            "centroid": [
+                121.51097126293612,
+                29.933347073240554
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁波市宝昌汽车销售服务有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8731,13 +9175,17 @@
                         29.9335104
                     ]
                 ]
+            ],
+            "centroid": [
+                121.51177837038959,
+                29.932813603162806
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁波博骏甬城汽车销售服务有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8786,13 +9234,17 @@
                         29.9320454
                     ]
                 ]
+            ],
+            "centroid": [
+                121.51292098706229,
+                29.93233951533899
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "明州广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8829,13 +9281,17 @@
                         29.9426682
                     ]
                 ]
+            ],
+            "centroid": [
+                121.50380246600209,
+                29.941971942375858
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "鑫通汽车城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8876,13 +9332,17 @@
                         29.9236195
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55326861542473,
+                29.92333931214705
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁波市旧机动车辆交易市场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8919,13 +9379,17 @@
                         29.9241155
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55208093644382,
+                29.924282200990323
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁波鸿利汽车销售服务有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -8950,13 +9414,17 @@
                         29.9086779
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5653342556127,
+                29.908933709525027
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁波甬立农业科技有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -9001,13 +9469,17 @@
                         29.9786333
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5281691604996,
+                29.978208991915686
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "宁波水产品批发市场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -9044,13 +9516,17 @@
                         29.9065389
                     ]
                 ]
+            ],
+            "centroid": [
+                121.60326350521616,
+                29.906471698805017
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "中旅城IfMall",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -9211,13 +9687,17 @@
                         29.9436176
                     ]
                 ]
+            ],
+            "centroid": [
+                121.47728946373783,
+                29.94279020202781
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "浙东轻纺城家居建材市场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -9254,13 +9734,17 @@
                         29.9512999
                     ]
                 ]
+            ],
+            "centroid": [
+                121.48539777365775,
+                29.95042452325986
             ]
         },
         {
             "city": "宁波市",
             "county": "江北区",
             "name": "银亿海德商业广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -9293,13 +9777,17 @@
                         29.944151
                     ]
                 ]
+            ],
+            "centroid": [
+                121.50454092822888,
+                29.943481089150275
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "滨湖广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -9448,13 +9936,17 @@
                         29.928468
                     ]
                 ]
+            ],
+            "centroid": [
+                121.62268681995225,
+                29.927810483275742
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "宁波慧谷",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -9551,13 +10043,17 @@
                         29.9202649
                     ]
                 ]
+            ],
+            "centroid": [
+                121.60737735624977,
+                29.91872583270954
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "明海广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -9586,13 +10082,17 @@
                         29.927555
                     ]
                 ]
+            ],
+            "centroid": [
+                121.61512497741717,
+                29.926908916948882
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "宁波1902万科广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -9733,13 +10233,17 @@
                         29.9316262
                     ]
                 ]
+            ],
+            "centroid": [
+                121.62010560113691,
+                29.930866112607337
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "银泰百货",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -9772,13 +10276,17 @@
                         29.9696745
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59582756732415,
+                29.970221287444758
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "招宝广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -9871,13 +10379,17 @@
                         29.954166
                     ]
                 ]
+            ],
+            "centroid": [
+                121.71094930556264,
+                29.95351392409961
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "三江购物",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -9910,13 +10422,17 @@
                         29.954869
                     ]
                 ]
+            ],
+            "centroid": [
+                121.70992600769782,
+                29.9545460039839
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "宁波镇海吾悦广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -9957,13 +10473,17 @@
                         29.9521167
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5959265161622,
+                29.951939181172847
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "金色广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -10044,13 +10564,17 @@
                         29.9369853
                     ]
                 ]
+            ],
+            "centroid": [
+                121.60155888565089,
+                29.936507125723512
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "三江购物（金色广场）",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -10115,13 +10639,17 @@
                         29.9370667
                     ]
                 ]
+            ],
+            "centroid": [
+                121.60293615167636,
+                29.93667815529894
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "萌恒大厦",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -10162,13 +10690,17 @@
                         29.9263068
                     ]
                 ]
+            ],
+            "centroid": [
+                121.61811892596738,
+                29.92513480332255
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "镇海开元广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -10285,13 +10817,17 @@
                         29.9279944
                     ]
                 ]
+            ],
+            "centroid": [
+                121.6201752132729,
+                29.92630253408917
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "启迪科技园",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -10332,13 +10868,17 @@
                         29.9255187
                     ]
                 ]
+            ],
+            "centroid": [
+                121.63429158572735,
+                29.925858717992913
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "镇海孵化园",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -10383,13 +10923,17 @@
                         29.9707336
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59298314599852,
+                29.970211152673176
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "镇海大厦",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -10438,13 +10982,17 @@
                         29.9689142
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5947346730411,
+                29.967802595879068
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "箭湖中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -10509,13 +11057,17 @@
                         29.9663885
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59571448022251,
+                29.965790511171964
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "镇海新城市场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -10568,13 +11120,17 @@
                         29.9600284
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59342115093494,
+                29.95967346805014
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "迪赛邻里",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -10639,13 +11195,17 @@
                         29.9662351
                     ]
                 ]
+            ],
+            "centroid": [
+                121.58725726668547,
+                29.965502743680478
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "镇海数谷",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -10694,13 +11254,17 @@
                         29.966493
                     ]
                 ]
+            ],
+            "centroid": [
+                121.58849038863977,
+                29.965875009993432
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "鼎信大厦",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -10737,13 +11301,17 @@
                         29.9690901
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59027183601805,
+                29.968662402802078
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "欣海国际",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -10768,13 +11336,17 @@
                         29.9691063
                     ]
                 ]
+            ],
+            "centroid": [
+                121.58935116974037,
+                29.96883072468054
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "万盛大厦",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -10803,13 +11375,17 @@
                         29.969115
                     ]
                 ]
+            ],
+            "centroid": [
+                121.58840639257183,
+                29.96865650075669
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "大润发",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -10854,13 +11430,17 @@
                         29.9745697
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59065752028333,
+                29.973522337451204
             ]
         },
         {
             "city": "宁波市",
             "county": "镇海区",
             "name": "爱琴海购物公园",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -10921,13 +11501,17 @@
                         29.987619
                     ]
                 ]
+            ],
+            "centroid": [
+                121.58007456679351,
+                29.988020331848258
             ]
         },
         {
             "city": "宁波市",
             "county": "北仑区",
             "name": "北仑银泰城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -11000,13 +11584,17 @@
                         29.8989663
                     ]
                 ]
+            ],
+            "centroid": [
+                121.8272107102526,
+                29.89778084539988
             ]
         },
         {
             "city": "宁波市",
             "county": "北仑区",
             "name": "凤凰城堡（南区）",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -11063,13 +11651,17 @@
                         29.8988986
                     ]
                 ]
+            ],
+            "centroid": [
+                121.84459758983775,
+                29.89857176172452
             ]
         },
         {
             "city": "宁波市",
             "county": "北仑区",
             "name": "凤凰城堡（北区）",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -11146,13 +11738,17 @@
                         29.9020182
                     ]
                 ]
+            ],
+            "centroid": [
+                121.8450306282549,
+                29.901004497257723
             ]
         },
         {
             "city": "宁波市",
             "county": "北仑区",
             "name": "富邦商业广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -11193,13 +11789,17 @@
                         29.8990251
                     ]
                 ]
+            ],
+            "centroid": [
+                121.83966895184031,
+                29.896415015493897
             ]
         },
         {
             "city": "宁波市",
             "county": "北仑区",
             "name": "环球东方港城商业广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -11264,13 +11864,17 @@
                         29.8935003
                     ]
                 ]
+            ],
+            "centroid": [
+                121.82342333116061,
+                29.89286949108803
             ]
         },
         {
             "city": "宁波市",
             "county": "北仑区",
             "name": "摩根国际",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -11331,13 +11935,17 @@
                         29.8943001
                     ]
                 ]
+            ],
+            "centroid": [
+                121.82863130755905,
+                29.893910836624723
             ]
         },
         {
             "city": "宁波市",
             "county": "北仑区",
             "name": "印象里",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -11382,13 +11990,17 @@
                         29.9331008
                     ]
                 ]
+            ],
+            "centroid": [
+                121.73196564197953,
+                29.93435838443823
             ]
         },
         {
             "city": "宁波市",
             "county": "北仑区",
             "name": "峰绣云浩大厦",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -11413,13 +12025,17 @@
                         29.9420591
                     ]
                 ]
+            ],
+            "centroid": [
+                121.74414002203085,
+                29.94228582294343
             ]
         },
         {
             "city": "宁波市",
             "county": "北仑区",
             "name": "北仑凤凰金融中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -11480,13 +12096,17 @@
                         29.8981079
                     ]
                 ]
+            ],
+            "centroid": [
+                121.84455758743863,
+                29.897070776634287
             ]
         },
         {
             "city": "宁波市",
             "county": "北仑区",
             "name": "东环钢贸城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -11715,13 +12335,292 @@
                         29.8905017
                     ]
                 ]
+            ],
+            "centroid": [
+                121.66464356147769,
+                29.888136495849785
+            ]
+        },
+        {
+            "city": "宁波市",
+            "county": "鄞州区",
+            "name": "Wanda Plaza",
+            "source": "Tianditu",
+            "geometry_type": "Point",
+            "polylines": [
+                [
+                    [
+                        121.5419138,
+                        29.828458
+                    ],
+                    [
+                        121.54191331847267,
+                        29.82844819828597
+                    ],
+                    [
+                        121.54191187852804,
+                        29.828438490967798
+                    ],
+                    [
+                        121.54190949403358,
+                        29.828428971532276
+                    ],
+                    [
+                        121.54190618795324,
+                        29.828419731656766
+                    ],
+                    [
+                        121.54190199212644,
+                        29.82841086032632
+                    ],
+                    [
+                        121.54189694696123,
+                        29.8284024429767
+                    ],
+                    [
+                        121.54189110104534,
+                        29.828394560671583
+                    ],
+                    [
+                        121.54188451067812,
+                        29.82838728932188
+                    ],
+                    [
+                        121.54187723932841,
+                        29.828380698954664
+                    ],
+                    [
+                        121.5418693570233,
+                        29.82837485303877
+                    ],
+                    [
+                        121.54186093967368,
+                        29.828369807873568
+                    ],
+                    [
+                        121.54185206834323,
+                        29.82836561204675
+                    ],
+                    [
+                        121.54184282846772,
+                        29.82836230596643
+                    ],
+                    [
+                        121.5418333090322,
+                        29.82835992147196
+                    ],
+                    [
+                        121.54182360171403,
+                        29.828358481527335
+                    ],
+                    [
+                        121.5418138,
+                        29.828358
+                    ],
+                    [
+                        121.54180399828597,
+                        29.828358481527335
+                    ],
+                    [
+                        121.5417942909678,
+                        29.82835992147196
+                    ],
+                    [
+                        121.54178477153228,
+                        29.82836230596643
+                    ],
+                    [
+                        121.54177553165677,
+                        29.82836561204675
+                    ],
+                    [
+                        121.54176666032632,
+                        29.828369807873568
+                    ],
+                    [
+                        121.5417582429767,
+                        29.82837485303877
+                    ],
+                    [
+                        121.54175036067159,
+                        29.828380698954664
+                    ],
+                    [
+                        121.54174308932188,
+                        29.82838728932188
+                    ],
+                    [
+                        121.54173649895466,
+                        29.828394560671583
+                    ],
+                    [
+                        121.54173065303877,
+                        29.8284024429767
+                    ],
+                    [
+                        121.54172560787356,
+                        29.82841086032632
+                    ],
+                    [
+                        121.54172141204675,
+                        29.828419731656766
+                    ],
+                    [
+                        121.54171810596642,
+                        29.828428971532276
+                    ],
+                    [
+                        121.54171572147196,
+                        29.828438490967798
+                    ],
+                    [
+                        121.54171428152733,
+                        29.82844819828597
+                    ],
+                    [
+                        121.5417138,
+                        29.828458
+                    ],
+                    [
+                        121.54171428152733,
+                        29.828467801714034
+                    ],
+                    [
+                        121.54171572147196,
+                        29.828477509032204
+                    ],
+                    [
+                        121.54171810596642,
+                        29.828487028467727
+                    ],
+                    [
+                        121.54172141204675,
+                        29.828496268343237
+                    ],
+                    [
+                        121.54172560787356,
+                        29.828505139673684
+                    ],
+                    [
+                        121.54173065303877,
+                        29.828513557023303
+                    ],
+                    [
+                        121.54173649895466,
+                        29.82852143932842
+                    ],
+                    [
+                        121.54174308932188,
+                        29.82852871067812
+                    ],
+                    [
+                        121.54175036067159,
+                        29.82853530104534
+                    ],
+                    [
+                        121.5417582429767,
+                        29.828541146961232
+                    ],
+                    [
+                        121.54176666032632,
+                        29.828546192126435
+                    ],
+                    [
+                        121.54177553165677,
+                        29.828550387953253
+                    ],
+                    [
+                        121.54178477153228,
+                        29.828553694033573
+                    ],
+                    [
+                        121.5417942909678,
+                        29.82855607852804
+                    ],
+                    [
+                        121.54180399828597,
+                        29.828557518472667
+                    ],
+                    [
+                        121.5418138,
+                        29.828558
+                    ],
+                    [
+                        121.54182360171403,
+                        29.828557518472667
+                    ],
+                    [
+                        121.5418333090322,
+                        29.82855607852804
+                    ],
+                    [
+                        121.54184282846772,
+                        29.828553694033573
+                    ],
+                    [
+                        121.54185206834323,
+                        29.828550387953253
+                    ],
+                    [
+                        121.54186093967368,
+                        29.828546192126435
+                    ],
+                    [
+                        121.5418693570233,
+                        29.828541146961232
+                    ],
+                    [
+                        121.54187723932841,
+                        29.82853530104534
+                    ],
+                    [
+                        121.54188451067812,
+                        29.82852871067812
+                    ],
+                    [
+                        121.54189110104534,
+                        29.82852143932842
+                    ],
+                    [
+                        121.54189694696123,
+                        29.828513557023303
+                    ],
+                    [
+                        121.54190199212644,
+                        29.828505139673684
+                    ],
+                    [
+                        121.54190618795324,
+                        29.828496268343237
+                    ],
+                    [
+                        121.54190949403358,
+                        29.828487028467727
+                    ],
+                    [
+                        121.54191187852804,
+                        29.828477509032204
+                    ],
+                    [
+                        121.54191331847267,
+                        29.828467801714034
+                    ],
+                    [
+                        121.5419138,
+                        29.828458
+                    ]
+                ]
+            ],
+            "centroid": [
+                121.5418138,
+                29.828458
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "金沙码头奥莱公园",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -11830,13 +12729,17 @@
                         29.8954466
                     ]
                 ]
+            ],
+            "centroid": [
+                121.65040405781642,
+                29.894626581110874
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "长丰悦邻汇",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -11905,13 +12808,17 @@
                         29.8468219
                     ]
                 ]
+            ],
+            "centroid": [
+                121.53910952652791,
+                29.846627829043854
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "创新128广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -12072,13 +12979,17 @@
                         29.8113028
                     ]
                 ]
+            ],
+            "centroid": [
+                121.60208000882865,
+                29.81089970003481
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波鄞州万达广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -12183,13 +13094,17 @@
                         29.8279175
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54156713493225,
+                29.82836059804518
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "京东Mall",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -12214,13 +13129,17 @@
                         29.8308314
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54944093949894,
+                29.830395825021785
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "联盛广场B区",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -12309,13 +13228,17 @@
                         29.826994
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5366906532605,
+                29.826801197826885
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "河清坊",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -12376,13 +13299,17 @@
                         29.8619551
                     ]
                 ]
+            ],
+            "centroid": [
+                121.6150726136314,
+                29.86153198797276
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "世纪东方商业广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -12471,13 +13398,17 @@
                         29.864939
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59096588500138,
+                29.864037062032427
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "港隆时代广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -12534,13 +13465,17 @@
                         29.8894889
                     ]
                 ]
+            ],
+            "centroid": [
+                121.60066461485609,
+                29.8883284185989
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "南部商务区",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -12597,13 +13532,17 @@
                         29.8126142
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5428195903585,
+                29.808056078976378
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宏泰广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -12704,13 +13643,17 @@
                         29.8628632
                     ]
                 ]
+            ],
+            "centroid": [
+                121.60852004614185,
+                29.86239356678518
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "西江古村",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -12751,13 +13694,17 @@
                         29.8115094
                     ]
                 ]
+            ],
+            "centroid": [
+                121.57548871730381,
+                29.81164551669875
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "银泰环球城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -12930,13 +13877,17 @@
                         29.7980944
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54116452839295,
+                29.79923232283297
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "保利悠悦汇",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -13033,13 +13984,17 @@
                         29.8524321
                     ]
                 ]
+            ],
+            "centroid": [
+                121.6093278538072,
+                29.852020377014153
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波阪急",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -13160,13 +14115,17 @@
                         29.8653174
                     ]
                 ]
+            ],
+            "centroid": [
+                121.61012180981413,
+                29.864428822952505
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "五一广场东楼",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -13247,13 +14206,17 @@
                         29.8581022
                     ]
                 ]
+            ],
+            "centroid": [
+                121.62136780124453,
+                29.857619894566984
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "五一广场西楼",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -13326,13 +14289,17 @@
                         29.8581263
                     ]
                 ]
+            ],
+            "centroid": [
+                121.61731187567763,
+                29.85847650841381
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宝龙广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -13361,13 +14328,17 @@
                         29.8397848
                     ]
                 ]
+            ],
+            "centroid": [
+                121.56373087445431,
+                29.838417306591207
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "钱湖悦庄酒店",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -13408,13 +14379,17 @@
                         29.7843503
                     ]
                 ]
+            ],
+            "centroid": [
+                121.62892428538335,
+                29.784024659093625
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "迪信通E10广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -13443,13 +14418,17 @@
                         29.8994891
                     ]
                 ]
+            ],
+            "centroid": [
+                121.62247475186244,
+                29.89867827855699
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宏泰广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -13510,13 +14489,17 @@
                         29.8639669
                     ]
                 ]
+            ],
+            "centroid": [
+                121.60700645285493,
+                29.861808545108865
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波市公安局轨道交通治安分局",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -13541,13 +14524,17 @@
                         29.8475188
                     ]
                 ]
+            ],
+            "centroid": [
+                121.66097878263335,
+                29.84715597907537
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波市轨道交通集团有限公司运营分公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -13572,13 +14559,17 @@
                         29.8475112
                     ]
                 ]
+            ],
+            "centroid": [
+                121.66267827217112,
+                29.84678725459404
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波集合广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -13659,13 +14650,17 @@
                         29.8750617
                     ]
                 ]
+            ],
+            "centroid": [
+                121.56895782610782,
+                29.87615146022675
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "清水桥路菜市场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -13690,13 +14685,17 @@
                         29.8949353
                     ]
                 ]
+            ],
+            "centroid": [
+                121.60607402363809,
+                29.89469878081384
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "滨江商业广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -13757,13 +14756,17 @@
                         29.8526532
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55072030584685,
+                29.851481817226997
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "华东物资城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -13796,13 +14799,17 @@
                         29.8169897
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59755267287736,
+                29.815047171783732
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "荣安星空里",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -13831,13 +14838,17 @@
                         29.8000852
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5435462408953,
+                29.798806747760743
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波东钱湖华茂希尔顿酒店",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -13966,13 +14977,17 @@
                         29.7910562
                     ]
                 ]
+            ],
+            "centroid": [
+                121.64630762752688,
+                29.789630208055005
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "明州里",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -14029,13 +15044,17 @@
                         29.8272217
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5380065888482,
+                29.82821299208208
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "东部银泰城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -14084,13 +15103,17 @@
                         29.8578149
                     ]
                 ]
+            ],
+            "centroid": [
+                121.61790274851934,
+                29.856346700861256
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波文化广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -14175,13 +15198,17 @@
                         29.8627543
                     ]
                 ]
+            ],
+            "centroid": [
+                121.61325322883799,
+                29.860539003806117
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波五一广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -14318,13 +15345,17 @@
                         29.8593037
                     ]
                 ]
+            ],
+            "centroid": [
+                121.61943018977746,
+                29.85813097674734
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "瑞石智汇湾",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -14397,13 +15428,17 @@
                         29.8606284
                     ]
                 ]
+            ],
+            "centroid": [
+                121.60227989427388,
+                29.859161142999685
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波富邦中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -14432,13 +15467,17 @@
                         29.8671355
                     ]
                 ]
+            ],
+            "centroid": [
+                121.60600262809353,
+                29.86760252083837
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "紫荆汇",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -14463,13 +15502,17 @@
                         29.867128
                     ]
                 ]
+            ],
+            "centroid": [
+                121.61090533161838,
+                29.866372869777084
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "金融硅谷",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -14510,13 +15553,17 @@
                         29.8639047
                     ]
                 ]
+            ],
+            "centroid": [
+                121.61331130622808,
+                29.86306052686636
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "新府银座",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -14541,13 +15588,17 @@
                         29.8656785
                     ]
                 ]
+            ],
+            "centroid": [
+                121.61679034380924,
+                29.86508542342909
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "环合中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -14572,13 +15623,17 @@
                         29.8664609
                     ]
                 ]
+            ],
+            "centroid": [
+                121.6136964665432,
+                29.865888106918042
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波日报传媒大厦",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -14607,13 +15662,17 @@
                         29.8657981
                     ]
                 ]
+            ],
+            "centroid": [
+                121.62214636047133,
+                29.865210489587266
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "鄞南商业广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -14662,13 +15721,17 @@
                         29.7304661
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59126635301446,
+                29.729719256459934
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "盛世国际",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -14701,13 +15764,17 @@
                         29.8825848
                     ]
                 ]
+            ],
+            "centroid": [
+                121.56819436717318,
+                29.882311131110253
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "泰富广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -14800,13 +15867,17 @@
                         29.8731497
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5881408064213,
+                29.87457601966851
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "聚亿商业中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -14839,13 +15910,17 @@
                         29.8450736
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54151210447922,
+                29.844160412546767
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "第六空间艺术生活广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -14878,13 +15953,17 @@
                         29.8723804
                     ]
                 ]
+            ],
+            "centroid": [
+                121.57781557418716,
+                29.871301949629565
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "东岸里",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -14921,13 +16000,17 @@
                         29.8862089
                     ]
                 ]
+            ],
+            "centroid": [
+                121.56803184429279,
+                29.884961651681966
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "印象外滩商业广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -14960,13 +16043,17 @@
                         29.8319235
                     ]
                 ]
+            ],
+            "centroid": [
+                121.52654920818827,
+                29.832349938784734
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宝龙一城购物广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -15263,13 +16350,17 @@
                         29.8049
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54086690408533,
+                29.804641483918047
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "鄞州科技信息孵化园",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -15306,13 +16397,17 @@
                         29.8097584
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55232716421754,
+                29.810397694159416
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波教育科技产业园",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -15341,13 +16436,17 @@
                         29.8097584
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55194047769832,
+                29.80898537275694
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "明洲物资市场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -15380,13 +16479,17 @@
                         29.8526204
                     ]
                 ]
+            ],
+            "centroid": [
+                121.57944237258954,
+                29.851618342010504
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "方圆中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -15419,13 +16522,17 @@
                         29.8472256
                     ]
                 ]
+            ],
+            "centroid": [
+                121.58835566826806,
+                29.846623440989212
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "殷家坑建材仓储市场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -15458,13 +16565,17 @@
                         29.8484301
                     ]
                 ]
+            ],
+            "centroid": [
+                121.58584634287305,
+                29.848958979775933
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "乐橙荟",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -15489,13 +16600,17 @@
                         29.8462327
                     ]
                 ]
+            ],
+            "centroid": [
+                121.60026346930924,
+                29.84547143295213
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "明珠若比邻里",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -15520,13 +16635,17 @@
                         29.8845715
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59670011234398,
+                29.884342669749206
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "轩宇广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -15559,13 +16678,17 @@
                         29.8864322
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59574057476918,
+                29.887049996667752
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波广播电视集团",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -15602,13 +16725,17 @@
                         29.9036541
                     ]
                 ]
+            ],
+            "centroid": [
+                121.61921487228916,
+                29.903146868827633
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "欢乐海岸",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -15753,13 +16880,17 @@
                         29.8236557
                     ]
                 ]
+            ],
+            "centroid": [
+                121.51898316358276,
+                29.82311668459927
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "东环钢贸城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -15988,13 +17119,17 @@
                         29.8905017
                     ]
                 ]
+            ],
+            "centroid": [
+                121.66464356147769,
+                29.888136495849785
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波国际金融服务中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -16019,13 +17154,17 @@
                         29.87139
                     ]
                 ]
+            ],
+            "centroid": [
+                121.61108103400782,
+                29.869301748666185
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "THE PARK by K11 Select",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -16382,13 +17521,17 @@
                         29.872324
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55976962078635,
+                29.871675149828476
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "中国联通宁波分公司总部",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -16429,13 +17572,17 @@
                         29.877533
                     ]
                 ]
+            ],
+            "centroid": [
+                121.63219762908487,
+                29.87725687438322
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "汇商财富中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -16500,13 +17647,17 @@
                         29.8111199
                     ]
                 ]
+            ],
+            "centroid": [
+                121.51963690073636,
+                29.810181809471512
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "泛迪中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -16539,13 +17690,17 @@
                         29.854863
                     ]
                 ]
+            ],
+            "centroid": [
+                121.55686246061462,
+                29.85412222610971
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "环宇城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -16786,13 +17941,17 @@
                         29.8518632
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54390499632689,
+                29.852506204700184
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "万特商务中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -16837,13 +17996,17 @@
                         29.8851924
                     ]
                 ]
+            ],
+            "centroid": [
+                121.61488138446981,
+                29.884790178842614
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "培罗成广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -16880,13 +18043,17 @@
                         29.8175592
                     ]
                 ]
+            ],
+            "centroid": [
+                121.58528176930591,
+                29.816974659250324
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波保险科技产业园",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -16935,13 +18102,17 @@
                         29.817757
                     ]
                 ]
+            ],
+            "centroid": [
+                121.57940895580087,
+                29.816710731293327
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "浙江波威新材料科技",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -16966,13 +18137,17 @@
                         29.8142249
                     ]
                 ]
+            ],
+            "centroid": [
+                121.60603673115452,
+                29.81317677215241
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "创新128",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17029,13 +18204,17 @@
                         29.8145956
                     ]
                 ]
+            ],
+            "centroid": [
+                121.60222502532217,
+                29.8129011775702
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "和丰创意广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17132,13 +18311,17 @@
                         29.8891553
                     ]
                 ]
+            ],
+            "centroid": [
+                121.56648623336247,
+                29.88692932832179
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "恒大·城市之光",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17163,13 +18346,17 @@
                         29.8572939
                     ]
                 ]
+            ],
+            "centroid": [
+                121.60769657448387,
+                29.856676914640488
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "韵升集团",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17230,13 +18417,17 @@
                         29.8828462
                     ]
                 ]
+            ],
+            "centroid": [
+                121.61929661584841,
+                29.882251438958264
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "八骏湾",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17261,13 +18452,17 @@
                         29.8727828
                     ]
                 ]
+            ],
+            "centroid": [
+                121.6168217214833,
+                29.87173997932759
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "德克德家国际家居",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17376,13 +18571,17 @@
                         29.8606133
                     ]
                 ]
+            ],
+            "centroid": [
+                121.60797617761283,
+                29.860489059617016
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "天伦时代广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17495,13 +18694,17 @@
                         29.8776565
                     ]
                 ]
+            ],
+            "centroid": [
+                121.58097257953558,
+                29.877323712026193
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "明州文体中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17534,13 +18737,17 @@
                         29.8259719
                     ]
                 ]
+            ],
+            "centroid": [
+                121.53330083420433,
+                29.825433926493265
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波合宾汽车销售有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17565,13 +18772,17 @@
                         29.8209195
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59012006409277,
+                29.820565817036417
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "小鹏",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17596,13 +18807,17 @@
                         29.8212942
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59031427354789,
+                29.82091949927695
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波中基汽车销售服务有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17627,13 +18842,17 @@
                         29.8220295
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59060172744351,
+                29.821467609319786
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波利之星汽车服务有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17658,13 +18877,17 @@
                         29.8226322
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59096123861673,
+                29.82212633385844
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "广汽埃安",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17689,13 +18912,17 @@
                         29.8232396
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5912592109428,
+                29.82272950121727
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "蔚来中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17720,13 +18947,17 @@
                         29.8238166
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59177928645016,
+                29.82388723047195
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波天畅汽车销售服务有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17751,13 +18982,17 @@
                         29.8238166
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59155091582541,
+                29.82331582120948
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波常隆汽车销售服务有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17790,13 +19025,17 @@
                         29.8249289
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59200393399172,
+                29.82443824593418
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "中国人民财产保险股份有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17821,13 +19060,17 @@
                         29.8253105
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5919573464342,
+                29.825004296110613
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波丰颐汽车销售服务有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17852,13 +19095,17 @@
                         29.8295199
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59398342803703,
+                29.82877205744401
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波宝恒汽车销售服务有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17883,13 +19130,17 @@
                         29.8304343
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5944515783609,
+                29.82980502912474
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "理想汽车宁波下应北路零售中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17930,13 +19181,17 @@
                         29.8321748
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59517956896786,
+                29.831446139389353
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "华信·君庭",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -17961,13 +19216,17 @@
                         29.8268417
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59335715347737,
+                29.82735255844337
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "嘉悦生活广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -18088,13 +19347,17 @@
                         29.7932448
                     ]
                 ]
+            ],
+            "centroid": [
+                121.63391502357348,
+                29.793181537337702
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "喜悦钱湖文创园",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -18123,13 +19386,17 @@
                         29.7932373
                     ]
                 ]
+            ],
+            "centroid": [
+                121.61483380987244,
+                29.792646430580163
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "钱湖邻里中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -18178,13 +19445,17 @@
                         29.7950686
                     ]
                 ]
+            ],
+            "centroid": [
+                121.62495412890492,
+                29.79465852037246
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波地产发展有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -18233,13 +19504,17 @@
                         29.8506838
                     ]
                 ]
+            ],
+            "centroid": [
+                121.60154933139768,
+                29.850327421988943
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "鄞州龙湖天街",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -18348,13 +19623,17 @@
                         29.883588
                     ]
                 ]
+            ],
+            "centroid": [
+                121.58654731766362,
+                29.88238015597976
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "上东国际",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -18399,13 +19678,17 @@
                         29.8575288
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59193077448958,
+                29.85695226920479
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "大润发",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -18446,13 +19729,17 @@
                         29.8583926
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59208550977527,
+                29.85782788254584
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波万象汇",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -18509,13 +19796,17 @@
                         29.836392
                     ]
                 ]
+            ],
+            "centroid": [
+                121.56420998312716,
+                29.835743077621576
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波鄞州印象城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -18700,13 +19991,17 @@
                         29.8349233
                     ]
                 ]
+            ],
+            "centroid": [
+                121.56223800501742,
+                29.835655774899013
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "堇悦生活中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -18763,13 +20058,17 @@
                         29.8322178
                     ]
                 ]
+            ],
+            "centroid": [
+                121.52932582302633,
+                29.832104517144998
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "璟丽时尚中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -18806,13 +20105,17 @@
                         29.8183667
                     ]
                 ]
+            ],
+            "centroid": [
+                121.60538543184731,
+                29.817592031223278
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "惠风邻里中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -18845,13 +20148,17 @@
                         29.8185482
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5289072198169,
+                29.81801458590154
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "华侨城欢乐海岸",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -19412,13 +20719,17 @@
                         29.8233501
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5199618232181,
+                29.823476645772974
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "联盛广场C区",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -19479,13 +20790,17 @@
                         29.8276363
                     ]
                 ]
+            ],
+            "centroid": [
+                121.53427452468888,
+                29.827040940270564
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "东钱湖万金雷迪森度假酒店",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -19686,13 +21001,17 @@
                         29.7850394
                     ]
                 ]
+            ],
+            "centroid": [
+                121.65302085382501,
+                29.78387596110988
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "东方商务中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -19733,13 +21052,17 @@
                         29.8538743
                     ]
                 ]
+            ],
+            "centroid": [
+                121.58253279771134,
+                29.852939747582457
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "金钟茶城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -19788,13 +21111,17 @@
                         29.8538743
                     ]
                 ]
+            ],
+            "centroid": [
+                121.58337381353039,
+                29.853216463536906
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "万悦集",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -19835,13 +21162,17 @@
                         29.8564588
                     ]
                 ]
+            ],
+            "centroid": [
+                121.57385044794631,
+                29.856148965325904
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "杉杉国贸天地",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -19894,13 +21225,17 @@
                         29.8731991
                     ]
                 ]
+            ],
+            "centroid": [
+                121.61209350796396,
+                29.872114920494475
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波国际会议展览中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -19997,13 +21332,17 @@
                         29.8744109
                     ]
                 ]
+            ],
+            "centroid": [
+                121.61157798825394,
+                29.876184080856852
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "横石桥市场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -20056,13 +21395,17 @@
                         29.8470441
                     ]
                 ]
+            ],
+            "centroid": [
+                121.56574399225588,
+                29.84665129753752
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "东湖悦邻汇",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -20107,13 +21450,17 @@
                         29.839861
                     ]
                 ]
+            ],
+            "centroid": [
+                121.57051943323788,
+                29.83909018577616
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波市青少年宫高新发展中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -20182,13 +21529,17 @@
                         29.8890274
                     ]
                 ]
+            ],
+            "centroid": [
+                121.62641830905932,
+                29.888531096245295
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波东部印象城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -20233,13 +21584,17 @@
                         29.885388
                     ]
                 ]
+            ],
+            "centroid": [
+                121.62400179336835,
+                29.88430327487066
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "太平鸟时尚中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -20304,13 +21659,17 @@
                         29.8807089
                     ]
                 ]
+            ],
+            "centroid": [
+                121.62764267189382,
+                29.880723048611767
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "扬帆广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -20367,13 +21726,17 @@
                         29.8841183
                     ]
                 ]
+            ],
+            "centroid": [
+                121.625015173502,
+                29.88302877010092
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "吉来商业中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -20426,13 +21789,17 @@
                         29.8852159
                     ]
                 ]
+            ],
+            "centroid": [
+                121.6281723706519,
+                29.8844074649863
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "高新宝龙广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -20525,13 +21892,17 @@
                         29.8854973
                     ]
                 ]
+            ],
+            "centroid": [
+                121.62666406073814,
+                29.885642326283936
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "明空间创业园",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -20572,13 +21943,17 @@
                         29.8851436
                     ]
                 ]
+            ],
+            "centroid": [
+                121.60728614704787,
+                29.884720103339728
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "鄞州世茂广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -20623,13 +21998,17 @@
                         29.8400483
                     ]
                 ]
+            ],
+            "centroid": [
+                121.58735472469054,
+                29.84115258025165
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "宁波北仑港高速公路有限公司",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -20678,13 +22057,17 @@
                         29.8429169
                     ]
                 ]
+            ],
+            "centroid": [
+                121.59399905468695,
+                29.842027680519884
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "iPN渔轮厂",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -20753,13 +22136,17 @@
                         29.8840229
                     ]
                 ]
+            ],
+            "centroid": [
+                121.5620335868228,
+                29.883059634894984
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "万达广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -20796,13 +22183,17 @@
                         29.7756832
                     ]
                 ]
+            ],
+            "centroid": [
+                121.54098586273828,
+                29.775287435235295
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "NB568电商产业园",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -20827,13 +22218,17 @@
                         29.829955
                     ]
                 ]
+            ],
+            "centroid": [
+                121.57414926918223,
+                29.82889898628767
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "巴丽新地",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -20950,13 +22345,17 @@
                         29.8329842
                     ]
                 ]
+            ],
+            "centroid": [
+                121.56508334152322,
+                29.832584128046257
             ]
         },
         {
             "city": "宁波市",
             "county": "鄞州区",
             "name": "钱湖天地商业中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -21021,13 +22420,17 @@
                         29.8340176
                     ]
                 ]
+            ],
+            "centroid": [
+                121.56519855355768,
+                29.833661284874484
             ]
         },
         {
             "city": "宁波市",
             "county": "奉化区",
             "name": "银泰城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -21092,13 +22495,17 @@
                         29.6677252
                     ]
                 ]
+            ],
+            "centroid": [
+                121.40874737009334,
+                29.66619783600855
             ]
         },
         {
             "city": "宁波市",
             "county": "奉化区",
             "name": "金钟广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -21135,13 +22542,17 @@
                         29.6680384
                     ]
                 ]
+            ],
+            "centroid": [
+                121.42407150706073,
+                29.667619111755638
             ]
         },
         {
             "city": "宁波市",
             "county": "奉化区",
             "name": "奉化区政府",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -21206,13 +22617,17 @@
                         29.658126
                     ]
                 ]
+            ],
+            "centroid": [
+                121.40132676687473,
+                29.657521529740556
             ]
         },
         {
             "city": "宁波市",
             "county": "奉化区",
             "name": "宝龙广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -21269,13 +22684,17 @@
                         29.6543583
                     ]
                 ]
+            ],
+            "centroid": [
+                121.44292307572174,
+                29.653636635416227
             ]
         },
         {
             "city": "宁波市",
             "county": "奉化区",
             "name": "万达广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -21312,13 +22731,17 @@
                         29.6689593
                     ]
                 ]
+            ],
+            "centroid": [
+                121.41867785045723,
+                29.667831434003194
             ]
         },
         {
             "city": "宁波市",
             "county": "奉化区",
             "name": "溪口民国风情街",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -21359,13 +22782,17 @@
                         29.6861736
                     ]
                 ]
+            ],
+            "centroid": [
+                121.2677937087807,
+                29.686012863408305
             ]
         },
         {
             "city": "宁波市",
             "county": "奉化区",
             "name": "联东U谷中交科技产业园",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -21398,13 +22825,17 @@
                         29.7186194
                     ]
                 ]
+            ],
+            "centroid": [
+                121.42641083532183,
+                29.717559797171262
             ]
         },
         {
             "city": "宁波市",
             "county": "奉化区",
             "name": "大桥市场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -21469,13 +22900,17 @@
                         29.682235
                     ]
                 ]
+            ],
+            "centroid": [
+                121.42339196063836,
+                29.68131096929395
             ]
         },
         {
             "city": "宁波市",
             "county": "奉化区",
             "name": "奉化欢乐城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -21528,13 +22963,17 @@
                         29.6745185
                     ]
                 ]
+            ],
+            "centroid": [
+                121.42540819644506,
+                29.67342315467217
             ]
         },
         {
             "city": "宁波市",
             "county": "奉化区",
             "name": "宁波市奉化区溪口博物馆",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -21591,13 +23030,17 @@
                         29.6867781
                     ]
                 ]
+            ],
+            "centroid": [
+                121.27966603145559,
+                29.685871841537015
             ]
         },
         {
             "city": "宁波市",
             "county": "奉化区",
             "name": "广南商城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -21670,13 +23113,17 @@
                         29.6584511
                     ]
                 ]
+            ],
+            "centroid": [
+                121.40755113531526,
+                29.657426508104304
             ]
         },
         {
             "city": "宁波市",
             "county": "奉化区",
             "name": "奉化冠成国际商业中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -21721,13 +23168,292 @@
                         29.6680816
                     ]
                 ]
+            ],
+            "centroid": [
+                121.40627209959709,
+                29.667226654596902
+            ]
+        },
+        {
+            "city": "宁波市",
+            "county": "慈溪市",
+            "name": "Intime City department store",
+            "source": "Tianditu",
+            "geometry_type": "Point",
+            "polylines": [
+                [
+                    [
+                        121.24477370000001,
+                        30.1726085
+                    ],
+                    [
+                        121.24477321847267,
+                        30.172598698285967
+                    ],
+                    [
+                        121.24477177852805,
+                        30.172588990967796
+                    ],
+                    [
+                        121.24476939403358,
+                        30.172579471532273
+                    ],
+                    [
+                        121.24476608795325,
+                        30.172570231656763
+                    ],
+                    [
+                        121.24476189212645,
+                        30.172561360326316
+                    ],
+                    [
+                        121.24475684696124,
+                        30.172552942976697
+                    ],
+                    [
+                        121.24475100104534,
+                        30.17254506067158
+                    ],
+                    [
+                        121.24474441067812,
+                        30.17253778932188
+                    ],
+                    [
+                        121.24473713932842,
+                        30.172531198954662
+                    ],
+                    [
+                        121.24472925702331,
+                        30.17252535303877
+                    ],
+                    [
+                        121.24472083967369,
+                        30.172520307873565
+                    ],
+                    [
+                        121.24471196834324,
+                        30.172516112046747
+                    ],
+                    [
+                        121.24470272846773,
+                        30.172512805966427
+                    ],
+                    [
+                        121.2446932090322,
+                        30.17251042147196
+                    ],
+                    [
+                        121.24468350171404,
+                        30.172508981527333
+                    ],
+                    [
+                        121.2446737,
+                        30.1725085
+                    ],
+                    [
+                        121.24466389828598,
+                        30.172508981527333
+                    ],
+                    [
+                        121.24465419096781,
+                        30.17251042147196
+                    ],
+                    [
+                        121.24464467153228,
+                        30.172512805966427
+                    ],
+                    [
+                        121.24463543165677,
+                        30.172516112046747
+                    ],
+                    [
+                        121.24462656032632,
+                        30.172520307873565
+                    ],
+                    [
+                        121.2446181429767,
+                        30.17252535303877
+                    ],
+                    [
+                        121.24461026067159,
+                        30.172531198954662
+                    ],
+                    [
+                        121.24460298932189,
+                        30.17253778932188
+                    ],
+                    [
+                        121.24459639895467,
+                        30.17254506067158
+                    ],
+                    [
+                        121.24459055303878,
+                        30.172552942976697
+                    ],
+                    [
+                        121.24458550787357,
+                        30.172561360326316
+                    ],
+                    [
+                        121.24458131204676,
+                        30.172570231656763
+                    ],
+                    [
+                        121.24457800596643,
+                        30.172579471532273
+                    ],
+                    [
+                        121.24457562147197,
+                        30.172588990967796
+                    ],
+                    [
+                        121.24457418152734,
+                        30.172598698285967
+                    ],
+                    [
+                        121.2445737,
+                        30.1726085
+                    ],
+                    [
+                        121.24457418152734,
+                        30.17261830171403
+                    ],
+                    [
+                        121.24457562147197,
+                        30.172628009032202
+                    ],
+                    [
+                        121.24457800596643,
+                        30.172637528467725
+                    ],
+                    [
+                        121.24458131204676,
+                        30.172646768343235
+                    ],
+                    [
+                        121.24458550787357,
+                        30.172655639673682
+                    ],
+                    [
+                        121.24459055303878,
+                        30.1726640570233
+                    ],
+                    [
+                        121.24459639895467,
+                        30.172671939328417
+                    ],
+                    [
+                        121.24460298932189,
+                        30.17267921067812
+                    ],
+                    [
+                        121.24461026067159,
+                        30.172685801045336
+                    ],
+                    [
+                        121.2446181429767,
+                        30.17269164696123
+                    ],
+                    [
+                        121.24462656032632,
+                        30.172696692126433
+                    ],
+                    [
+                        121.24463543165677,
+                        30.17270088795325
+                    ],
+                    [
+                        121.24464467153228,
+                        30.17270419403357
+                    ],
+                    [
+                        121.24465419096781,
+                        30.17270657852804
+                    ],
+                    [
+                        121.24466389828598,
+                        30.172708018472665
+                    ],
+                    [
+                        121.2446737,
+                        30.1727085
+                    ],
+                    [
+                        121.24468350171404,
+                        30.172708018472665
+                    ],
+                    [
+                        121.2446932090322,
+                        30.17270657852804
+                    ],
+                    [
+                        121.24470272846773,
+                        30.17270419403357
+                    ],
+                    [
+                        121.24471196834324,
+                        30.17270088795325
+                    ],
+                    [
+                        121.24472083967369,
+                        30.172696692126433
+                    ],
+                    [
+                        121.24472925702331,
+                        30.17269164696123
+                    ],
+                    [
+                        121.24473713932842,
+                        30.172685801045336
+                    ],
+                    [
+                        121.24474441067812,
+                        30.17267921067812
+                    ],
+                    [
+                        121.24475100104534,
+                        30.172671939328417
+                    ],
+                    [
+                        121.24475684696124,
+                        30.1726640570233
+                    ],
+                    [
+                        121.24476189212645,
+                        30.172655639673682
+                    ],
+                    [
+                        121.24476608795325,
+                        30.172646768343235
+                    ],
+                    [
+                        121.24476939403358,
+                        30.172637528467725
+                    ],
+                    [
+                        121.24477177852805,
+                        30.172628009032202
+                    ],
+                    [
+                        121.24477321847267,
+                        30.17261830171403
+                    ],
+                    [
+                        121.24477370000001,
+                        30.1726085
+                    ]
+                ]
+            ],
+            "centroid": [
+                121.2446737,
+                30.1726085
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "宁波世纪金源购物中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -21780,13 +23506,17 @@
                         30.3321323
                     ]
                 ]
+            ],
+            "centroid": [
+                121.22679746389855,
+                30.331119938020947
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "银泰百货(慈溪城西店)",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -21851,13 +23581,17 @@
                         30.1827834
                     ]
                 ]
+            ],
+            "centroid": [
+                121.20612674713958,
+                30.18172052946148
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "华润万家",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -21882,13 +23616,17 @@
                         30.1760118
                     ]
                 ]
+            ],
+            "centroid": [
+                121.26037050875277,
+                30.1766076501931
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "慈溪银泰城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -21917,13 +23655,17 @@
                         30.1719988
                     ]
                 ]
+            ],
+            "centroid": [
+                121.24423641001063,
+                30.172570771328513
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "爱琴海购物中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -21980,13 +23722,17 @@
                         30.2267464
                     ]
                 ]
+            ],
+            "centroid": [
+                121.21227970379869,
+                30.226714634635528
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "吾悦广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -22023,13 +23769,17 @@
                         30.1473624
                     ]
                 ]
+            ],
+            "centroid": [
+                121.25517340843935,
+                30.146215959632144
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "慈溪环创爱琴海购物中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -22110,13 +23860,17 @@
                         30.1988775
                     ]
                 ]
+            ],
+            "centroid": [
+                121.27259273713514,
+                30.197964955017582
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "慈溪长三角市场群综合商贸城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -22181,13 +23935,17 @@
                         30.2129212
                     ]
                 ]
+            ],
+            "centroid": [
+                121.29995650081065,
+                30.21199376146801
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "慈溪新河坊·云泰Park",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -22300,13 +24058,17 @@
                         30.1814849
                     ]
                 ]
+            ],
+            "centroid": [
+                121.27052682485193,
+                30.18496408658445
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "华东轻纺城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -22363,13 +24125,17 @@
                         30.1704849
                     ]
                 ]
+            ],
+            "centroid": [
+                121.28248838586565,
+                30.171763290614585
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "华东轻纺针织城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -22422,13 +24188,17 @@
                         30.1769543
                     ]
                 ]
+            ],
+            "centroid": [
+                121.28447234489182,
+                30.17567645660141
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "上海街",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -22469,13 +24239,17 @@
                         30.1685335
                     ]
                 ]
+            ],
+            "centroid": [
+                121.22969985429366,
+                30.1689845367883
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "聚美家居生活广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -22504,13 +24278,17 @@
                         30.2236304
                     ]
                 ]
+            ],
+            "centroid": [
+                121.30010678619749,
+                30.22177377348644
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "吉利·吉好商业广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -22595,13 +24373,17 @@
                         30.3208986
                     ]
                 ]
+            ],
+            "centroid": [
+                121.22804280165414,
+                30.320713967250594
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "杭州湾金融广场二期",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -22642,13 +24424,17 @@
                         30.322899
                     ]
                 ]
+            ],
+            "centroid": [
+                121.22500970562409,
+                30.321941801904863
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "杭州湾金融广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -22717,13 +24503,17 @@
                         30.3251703
                     ]
                 ]
+            ],
+            "centroid": [
+                121.22342997257566,
+                30.32442890154077
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "瑞海·阳光天地",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -22844,13 +24634,17 @@
                         30.3222091
                     ]
                 ]
+            ],
+            "centroid": [
+                121.20204073381043,
+                30.321746002900227
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "方太理想城东区",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -22915,13 +24709,17 @@
                         30.3456531
                     ]
                 ]
+            ],
+            "centroid": [
+                121.22009874108157,
+                30.344113083616534
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "南洋商城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -22962,13 +24760,17 @@
                         30.2923999
                     ]
                 ]
+            ],
+            "centroid": [
+                121.28905991761313,
+                30.291079350265857
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "周巷中国食品城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -22993,13 +24795,17 @@
                         30.2205721
                     ]
                 ]
+            ],
+            "centroid": [
+                121.1457427,
+                30.21986595
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "嘉悦广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -23036,13 +24842,17 @@
                         30.1847958
                     ]
                 ]
+            ],
+            "centroid": [
+                121.1329331891407,
+                30.18408135819022
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "慈溪轻纺布料城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -23099,13 +24909,17 @@
                         30.2213244
                     ]
                 ]
+            ],
+            "centroid": [
+                121.3069283618875,
+                30.218348708538578
             ]
         },
         {
             "city": "宁波市",
             "county": "慈溪市",
             "name": "慈溪农贸城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -23178,13 +24992,17 @@
                         30.2161558
                     ]
                 ]
+            ],
+            "centroid": [
+                121.30380455643513,
+                30.21319329885784
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "万达广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -23225,13 +25043,17 @@
                         30.0293524
                     ]
                 ]
+            ],
+            "centroid": [
+                121.12889608952644,
+                30.030367491497827
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "华润万家",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -23268,13 +25090,17 @@
                         30.1665744
                     ]
                 ]
+            ],
+            "centroid": [
+                121.04518448946762,
+                30.16681320660707
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "嘉悦购物广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -23327,13 +25153,17 @@
                         30.062137
                     ]
                 ]
+            ],
+            "centroid": [
+                121.17864854062215,
+                30.062274900502143
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "梁弄镇人民政府",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -23386,13 +25216,17 @@
                         29.922499
                     ]
                 ]
+            ],
+            "centroid": [
+                121.08131688498246,
+                29.921915562572647
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "余姚商会大厦",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -23425,13 +25259,17 @@
                         30.0369462
                     ]
                 ]
+            ],
+            "centroid": [
+                121.15268199591966,
+                30.035929486818382
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "余姚市金融中心大楼",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -23456,13 +25294,17 @@
                         30.0367562
                     ]
                 ]
+            ],
+            "centroid": [
+                121.15437624819418,
+                30.035916144578916
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "合力大厦",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -23491,13 +25333,17 @@
                         30.0310431
                     ]
                 ]
+            ],
+            "centroid": [
+                121.15256414465883,
+                30.03007230579927
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "白云商贸中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -23526,13 +25372,17 @@
                         30.033577
                     ]
                 ]
+            ],
+            "centroid": [
+                121.16051442792369,
+                30.033933394737232
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "四明广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -23585,13 +25435,17 @@
                         30.0433713
                     ]
                 ]
+            ],
+            "centroid": [
+                121.15074112440323,
+                30.042312448317904
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "府前路历史文化商业街区",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -23624,13 +25478,17 @@
                         30.0504062
                     ]
                 ]
+            ],
+            "centroid": [
+                121.15498238772314,
+                30.05003562514413
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "河姆渡时尚商业中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -23659,13 +25517,17 @@
                         30.0549473
                     ]
                 ]
+            ],
+            "centroid": [
+                121.15332309727306,
+                30.054265783770457
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "君豪中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -23698,13 +25560,17 @@
                         30.0482227
                     ]
                 ]
+            ],
+            "centroid": [
+                121.12990991472189,
+                30.048997090218023
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "余姚市公 共文化中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -23781,13 +25647,17 @@
                         30.0469004
                     ]
                 ]
+            ],
+            "centroid": [
+                121.17075379567316,
+                30.04531608329107
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "太平洋商业广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -23820,13 +25690,17 @@
                         30.0469865
                     ]
                 ]
+            ],
+            "centroid": [
+                121.1509820838058,
+                30.04679634380023
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "余姚小商品市场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -23851,13 +25725,17 @@
                         30.0473949
                     ]
                 ]
+            ],
+            "centroid": [
+                121.15325236254044,
+                30.046712411154296
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "南门市场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -23882,13 +25760,17 @@
                         30.0407359
                     ]
                 ]
+            ],
+            "centroid": [
+                121.15412574916954,
+                30.04035168159773
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "中国慧聪家电城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -23937,13 +25819,17 @@
                         30.0902754
                     ]
                 ]
+            ],
+            "centroid": [
+                121.1546853053631,
+                30.089491556207204
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "中国塑料城国际商务中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -24008,13 +25894,17 @@
                         30.0862952
                     ]
                 ]
+            ],
+            "centroid": [
+                121.15322482139105,
+                30.085325048055164
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "五彩城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -24079,13 +25969,17 @@
                         30.0687179
                     ]
                 ]
+            ],
+            "centroid": [
+                121.17559800546812,
+                30.069853820259983
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "河姆渡创新产业园",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -24138,13 +26032,17 @@
                         30.0974996
                     ]
                 ]
+            ],
+            "centroid": [
+                121.16940796348939,
+                30.09798593802157
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "智晟云谷南区",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -24185,13 +26083,17 @@
                         30.1014468
                     ]
                 ]
+            ],
+            "centroid": [
+                121.15933792470673,
+                30.10024799322239
             ]
         },
         {
             "city": "宁波市",
             "county": "余姚市",
             "name": "智晟云谷北区",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -24216,13 +26118,17 @@
                         30.1033217
                     ]
                 ]
+            ],
+            "centroid": [
+                121.15986230164211,
+                30.102556068714286
             ]
         },
         {
             "city": "宁波市",
             "county": "宁海县",
             "name": "西子国际",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -24351,13 +26257,17 @@
                         29.305021
                     ]
                 ]
+            ],
+            "centroid": [
+                121.43657995831995,
+                29.305853246515465
             ]
         },
         {
             "city": "宁波市",
             "county": "宁海县",
             "name": "世贸中心",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -24394,13 +26304,17 @@
                         29.3091926
                     ]
                 ]
+            ],
+            "centroid": [
+                121.43539095963499,
+                29.30858927987145
             ]
         },
         {
             "city": "宁波市",
             "county": "宁海县",
             "name": "桃源广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -24441,13 +26355,17 @@
                         29.3171911
                     ]
                 ]
+            ],
+            "centroid": [
+                121.43045632672262,
+                29.316455543828816
             ]
         },
         {
             "city": "宁波市",
             "county": "宁海县",
             "name": "泰悦城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -24516,13 +26434,17 @@
                         29.3056389
                     ]
                 ]
+            ],
+            "centroid": [
+                121.42100353757749,
+                29.305857029775037
             ]
         },
         {
             "city": "宁波市",
             "county": "象山县",
             "name": "宁波象山海景皇冠假日酒店",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -24603,13 +26525,17 @@
                         29.2612755
                     ]
                 ]
+            ],
+            "centroid": [
+                121.96602458321028,
+                29.263315387526784
             ]
         },
         {
             "city": "宁波市",
             "county": "象山县",
             "name": "宁波象山绿城喜来登度假酒店",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -24658,13 +26584,17 @@
                         29.452665
                     ]
                 ]
+            ],
+            "centroid": [
+                121.97307812667756,
+                29.45284710728193
             ]
         },
         {
             "city": "宁波市",
             "county": "象山县",
             "name": "涌金广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -24701,13 +26631,17 @@
                         29.4652298
                     ]
                 ]
+            ],
+            "centroid": [
+                121.88394958050368,
+                29.465172119116424
             ]
         },
         {
             "city": "宁波市",
             "county": "象山县",
             "name": "山海印",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -24748,13 +26682,17 @@
                         29.3026712
                     ]
                 ]
+            ],
+            "centroid": [
+                121.91639534370498,
+                29.303725670880123
             ]
         },
         {
             "city": "宁波市",
             "county": "象山县",
             "name": "恒太城",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -24807,13 +26745,17 @@
                         29.4808651
                     ]
                 ]
+            ],
+            "centroid": [
+                121.89663948419162,
+                29.48034348607686
             ]
         },
         {
             "city": "宁波市",
             "county": "象山县",
             "name": "象山国际风情街",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -24854,13 +26796,17 @@
                         29.4630913
                     ]
                 ]
+            ],
+            "centroid": [
+                121.89315333477279,
+                29.463810307131315
             ]
         },
         {
             "city": "宁波市",
             "county": "象山县",
             "name": "万达广场",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -24901,13 +26847,17 @@
                         29.4592368
                     ]
                 ]
+            ],
+            "centroid": [
+                121.86876287949032,
+                29.45889504968236
             ]
         },
         {
             "city": "宁波市",
             "county": "象山县",
             "name": "象山县青草巷特色街区",
-            "source": "OpenStreetMap",
+            "source": "Tianditu",
             "geometry_type": "Polygon",
             "polylines": [
                 [
@@ -24960,6 +26910,10 @@
                         29.4790625
                     ]
                 ]
+            ],
+            "centroid": [
+                121.86421691942965,
+                29.47822176765717
             ]
         }
     ]

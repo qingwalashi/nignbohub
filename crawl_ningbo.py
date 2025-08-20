@@ -9,9 +9,9 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 CONFIG = {
     # 1. 定义最终导出的 JSON 文件名
-    "output_filename": "ningbo_school_boundaries.json",
+    "output_filename": "ningbo_cbd_boundaries.json",
     # 1.1 定义数据集名称（写入 JSON 顶部，英文字段）
-    "dataset_name": "宁波学校边界天地图数据",
+    "dataset_name": "宁波商圈边界天地图数据",
 
     # 2. 指定要查询的城市与区县列表
     #    键为中文名称，值为供 OSMnx 查询使用的英文地名
@@ -33,18 +33,18 @@ CONFIG = {
 
     # 3. 定义用于检索的 OpenStreetMap 标签
     #    下面示例用于检索商业及零售用地
-    # "osm_tags": {
-    #     "landuse": ["commercial", "retail"],
-    #     "shop": "mall"
-    # }
+    "osm_tags": {
+        "landuse": ["commercial", "retail"],
+        "shop": "mall"
+    }
     #    下面示例用于检索医院
     # "osm_tags": {
     #     "amenity": "hospital"
     # }
     #    下面示例用于检索学校
-    "osm_tags": {
-        "amenity": "school"
-    }
+    # "osm_tags": {
+    #     "amenity": "school"
+    # }
 }
 
 # --- 核心函数 ---
@@ -96,11 +96,21 @@ def process_geometries(gdf, city, county):
         if not geometry or not hasattr(geometry, 'geom_type'):
             continue
 
+        # 获取要素的中心点坐标
+        centroid = None
+        if hasattr(geometry, 'centroid'):
+            centroid = [geometry.centroid.x, geometry.centroid.y]
+        elif geometry.geom_type == 'Point':
+            centroid = [geometry.x, geometry.y]
+
         polygons = []
         if geometry.geom_type == 'Polygon':
             polygons.append(geometry)
         elif geometry.geom_type == 'MultiPolygon':
             polygons.extend(geometry.geoms)
+        elif geometry.geom_type == 'Point':
+            # 如果是点要素，创建一个仅包含该点的"边界"
+            polygons.append(geometry.buffer(0.0001))  # 创建一个小的缓冲区作为边界
 
         if not polygons:
             continue
@@ -112,14 +122,20 @@ def process_geometries(gdf, city, county):
                 polylines.append([[lon, lat] for lon, lat in coords])
 
         if polylines:
-            processed_data.append({
+            feature_data = {
                 "city": city,
                 "county": county,
                 "name": row.get('name'),
                 "source": "OpenStreetMap",
                 "geometry_type": geometry.geom_type,
                 "polylines": polylines
-            })
+            }
+            
+            # 如果成功获取中心点坐标，则添加到数据中
+            if centroid is not None:
+                feature_data["centroid"] = centroid
+                
+            processed_data.append(feature_data)
 
     return processed_data
 

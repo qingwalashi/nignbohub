@@ -15,15 +15,20 @@ window.onload = function() {
     const datasetSelect = document.getElementById('dataset-select');
     const hamburger = document.getElementById('hamburger');
     const backdrop = document.getElementById('backdrop');
+    const boundaryModeRadio = document.getElementById('boundary-mode');
+    const pointModeRadio = document.getElementById('point-mode');
 
     // --- State Management ---
     let allDistricts = [];
     let filteredDistricts = [];
     let polygons = new Map();
+    let markers = new Map();
     let infoWindows = new Map();
     let currentPage = 1;
     let itemsPerPage = 10;
     let selectedDistrictId = null;
+    let currentDisplayMode = 'boundary';
+    let currentDataset = null;
 
     // --- Responsive Helpers ---
     const isMobile = () => window.matchMedia && window.matchMedia('(max-width: 768px)').matches;
@@ -53,7 +58,7 @@ window.onload = function() {
         filteredDistricts = currentlyVisibleDistricts;
 
         // Update map overlays
-        updateMapPolygons();
+        updateMapOverlays();
 
         // Paginate data
         const totalPages = Math.ceil(filteredDistricts.length / itemsPerPage);
@@ -91,8 +96,10 @@ window.onload = function() {
 
         // If the clicked district is already selected, deselect it
         if (districtId === selectedDistrictId) {
-            const oldPolygon = polygons.get(selectedDistrictId);
-            if (oldPolygon) oldPolygon.setStyle(defaultStyle);
+            if (currentDisplayMode === 'boundary') {
+                const oldPolygon = polygons.get(selectedDistrictId);
+                if (oldPolygon) oldPolygon.setStyle(defaultStyle);
+            }
 
             const oldLi = districtList.querySelector(`li[data-id='${selectedDistrictId}']`);
             if (oldLi) oldLi.classList.remove('selected');
@@ -103,8 +110,10 @@ window.onload = function() {
 
         // If a different district was selected, reset its style
         if (selectedDistrictId !== null) {
-            const oldPolygon = polygons.get(selectedDistrictId);
-            if (oldPolygon) oldPolygon.setStyle(defaultStyle);
+            if (currentDisplayMode === 'boundary') {
+                const oldPolygon = polygons.get(selectedDistrictId);
+                if (oldPolygon) oldPolygon.setStyle(defaultStyle);
+            }
 
             const oldLi = districtList.querySelector(`li[data-id='${selectedDistrictId}']`);
             if (oldLi) oldLi.classList.remove('selected');
@@ -114,16 +123,30 @@ window.onload = function() {
         selectedDistrictId = districtId;
 
         // Apply new styles and open info window for the new selection
-        const newPolygon = polygons.get(districtId);
-        if (newPolygon) {
-            newPolygon.setStyle(selectedStyle);
-            map.setViewport(newPolygon.getLngLats()[0]);
+        if (currentDisplayMode === 'boundary') {
+            const newPolygon = polygons.get(districtId);
+            if (newPolygon) {
+                newPolygon.setStyle(selectedStyle);
+                map.setViewport(newPolygon.getLngLats()[0]);
 
-            const infoWin = infoWindows.get(districtId);
-            if (infoWin) {
-                // Use provided click coordinates or the polygon's center
-                const position = lnglat || newPolygon.getBounds().getCenter();
-                map.openInfoWindow(infoWin, position);
+                const infoWin = infoWindows.get(districtId);
+                if (infoWin) {
+                    // Use provided click coordinates or the polygon's center
+                    const position = lnglat || newPolygon.getBounds().getCenter();
+                    map.openInfoWindow(infoWin, position);
+                }
+            }
+        } else {
+            const marker = markers.get(districtId);
+            if (marker) {
+                const position = lnglat || marker.getLngLat();
+                // Zoom and center the map on the marker
+                map.centerAndZoom(position, 16);
+                
+                const infoWin = infoWindows.get(districtId);
+                if (infoWin) {
+                    map.openInfoWindow(infoWin, position);
+                }
             }
         }
 
@@ -136,14 +159,21 @@ window.onload = function() {
         }
     }
 
-    function updateMapPolygons() {
-        // Clear existing polygons from the map before drawing new ones
+    function updateMapOverlays() {
+        // Clear existing overlays from the map before drawing new ones
         map.clearOverLays();
 
         filteredDistricts.forEach(area => {
-            const polygon = polygons.get(area.id); // Look up by ID
-            if (polygon) {
-                map.addOverLay(polygon);
+            if (currentDisplayMode === 'boundary') {
+                const polygon = polygons.get(area.id);
+                if (polygon) {
+                    map.addOverLay(polygon);
+                }
+            } else {
+                const marker = markers.get(area.id);
+                if (marker) {
+                    map.addOverLay(marker);
+                }
             }
         });
     }
@@ -180,6 +210,27 @@ window.onload = function() {
         render();
     });
 
+    // --- Display Mode Toggle Event Listeners ---
+    boundaryModeRadio.addEventListener('change', () => {
+        if (boundaryModeRadio.checked) {
+            currentDisplayMode = 'boundary';
+            selectedDistrictId = null; // Reset selection when switching modes
+            if (currentDataset) {
+                loadDataset(currentDataset); // Reload with boundary data
+            }
+        }
+    });
+
+    pointModeRadio.addEventListener('change', () => {
+        if (pointModeRadio.checked) {
+            currentDisplayMode = 'point';
+            selectedDistrictId = null; // Reset selection when switching modes
+            if (currentDataset) {
+                loadDataset(currentDataset); // Reload with point data
+            }
+        }
+    });
+
     // --- Sidebar Toggle (Mobile) ---
     if (hamburger) {
         hamburger.addEventListener('click', () => {
@@ -198,18 +249,23 @@ window.onload = function() {
     });
 
     // --- Data Fetching Helpers ---
-    function loadDataset(file) {
+    function loadDataset(dataset) {
         // Reset state
         allDistricts = [];
         filteredDistricts = [];
         polygons.clear();
+        markers.clear();
         infoWindows.clear();
         selectedDistrictId = null;
+        currentDataset = dataset;
         districtList.innerHTML = '';
         // Reset county filter to just 'all'
         while (countyFilter.options.length > 1) countyFilter.remove(1);
         const allOption = countyFilter.querySelector('option[value="all"]');
         if (allOption) allOption.textContent = '全宁波';
+
+        // Determine which file to load based on current display mode
+        const file = currentDisplayMode === 'boundary' ? dataset.boundary_file : dataset.point_file;
 
         fetch(file)
             .then(response => {
@@ -265,8 +321,9 @@ window.onload = function() {
                 countyFilter.appendChild(option);
             });
 
-            // Assign unique IDs and create polygons + info windows
+            // Assign unique IDs and create polygons/markers + info windows
             polygons.clear();
+            markers.clear();
             infoWindows.clear();
             data.forEach((area, index) => {
                 area.id = index; // Assign a simple unique ID
@@ -274,16 +331,25 @@ window.onload = function() {
                 if (area.polylines && area.polylines.length > 0 && area.polylines[0].length > 0) {
                     const points = area.polylines[0].map(p => new T.LngLat(p[0], p[1]));
                     
+                    // Create polygon for boundary mode
                     const polygon = new T.Polygon(points, defaultStyle);
+                    polygons.set(area.id, polygon);
                     
-                    polygons.set(area.id, polygon); // Store polygon by unique ID
+                    // Create marker for point mode (using centroid of polygon)
+                    const centroid = calculateCentroid(points);
+                    const marker = new T.Marker(centroid);
+                    markers.set(area.id, marker);
 
                     const infoWin = new T.InfoWindow();
                     infoWin.setContent(`<b>${area.name}</b><br>(${area.county})`);
-                    infoWindows.set(area.id, infoWin); // Store info window
+                    infoWindows.set(area.id, infoWin);
 
+                    // Add click events for both polygon and marker
                     polygon.addEventListener("click", (e) => {
-                        // The selectDistrict function now handles opening the info window
+                        selectDistrict(area.id, e.lnglat);
+                    });
+                    
+                    marker.addEventListener("click", (e) => {
                         selectDistrict(area.id, e.lnglat);
                     });
                 }
@@ -300,11 +366,27 @@ window.onload = function() {
         .catch(error => console.error('Error loading boundary data:', error));
     }
 
+    // Helper function to calculate centroid of polygon
+    function calculateCentroid(points) {
+        let totalLng = 0, totalLat = 0;
+        points.forEach(point => {
+            totalLng += point.lng;
+            totalLat += point.lat;
+        });
+        return new T.LngLat(totalLng / points.length, totalLat / points.length);
+    }
+
     // Load datasets index and initialize selector
     function initDatasets() {
         if (!datasetSelect) {
-            // Fallback: directly load default file if selector missing
-            loadDataset('ningbo_cbd_boundaries_cgcs2000.json');
+            // Fallback: directly load default dataset if selector missing
+            const defaultDataset = {
+                id: 'ningbo_cbd_cgcs2000',
+                name: '宁波商圈（CGCS2000）',
+                boundary_file: 'ningbo_cbd_boundaries_cgcs2000.json',
+                point_file: 'ningbo_cbd_boundaries_cgcs2000.json'
+            };
+            loadDataset(defaultDataset);
             return;
         }
         fetch('datasets.json')
@@ -318,30 +400,43 @@ window.onload = function() {
                 datasetSelect.innerHTML = '';
                 list.forEach((d, i) => {
                     const opt = document.createElement('option');
-                    opt.value = d.file;
-                    opt.textContent = d.name || d.id || d.file;
+                    opt.value = JSON.stringify(d); // Store entire dataset object
+                    opt.textContent = d.name || d.id || d.boundary_file;
                     datasetSelect.appendChild(opt);
                 });
 
                 // Bind change
                 datasetSelect.addEventListener('change', () => {
-                    const file = datasetSelect.value;
-                    loadDataset(file);
+                    const datasetJson = datasetSelect.value;
+                    const dataset = JSON.parse(datasetJson);
+                    loadDataset(dataset);
                 });
 
                 // Initial load
                 const first = list[0];
                 if (first) {
-                    datasetSelect.value = first.file;
-                    loadDataset(first.file);
+                    datasetSelect.value = JSON.stringify(first);
+                    loadDataset(first);
                 } else {
-                    console.warn('datasets.json is empty; loading default file');
-                    loadDataset('ningbo_cbd_boundaries_cgcs2000.json');
+                    console.warn('datasets.json is empty; loading default dataset');
+                    const defaultDataset = {
+                        id: 'ningbo_cbd_cgcs2000',
+                        name: '宁波商圈（CGCS2000）',
+                        boundary_file: 'ningbo_cbd_boundaries_cgcs2000.json',
+                        point_file: 'ningbo_cbd_boundaries_cgcs2000.json'
+                    };
+                    loadDataset(defaultDataset);
                 }
             })
             .catch(err => {
                 console.warn('Failed to load datasets.json, fallback to default.', err);
-                loadDataset('ningbo_cbd_boundaries_cgcs2000.json');
+                const defaultDataset = {
+                    id: 'ningbo_cbd_cgcs2000',
+                    name: '宁波商圈（CGCS2000）',
+                    boundary_file: 'ningbo_cbd_boundaries_cgcs2000.json',
+                    point_file: 'ningbo_cbd_boundaries_cgcs2000.json'
+                };
+                loadDataset(defaultDataset);
             });
     }
 

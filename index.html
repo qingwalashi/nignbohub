@@ -135,6 +135,35 @@
             }
         }
 
+        /* Toggle switches */
+        .toggle-container{ display: flex; gap: 8px; margin-top: 4px; }
+        .toggle-switch{ flex: 1; }
+        .toggle-switch input[type="radio"]{ display: none; }
+        .toggle-label{
+            display: block;
+            padding: 8px 12px;
+            background: #ffffff;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            text-align: center;
+            cursor: pointer;
+            transition: all .2s ease;
+            font-size: 13px;
+            color: var(--text);
+        }
+        .toggle-switch input[type="radio"]:checked + .toggle-label{
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+        .toggle-label:hover{
+            border-color: var(--primary);
+            background: #f8fafc;
+        }
+        .toggle-switch input[type="radio"]:checked + .toggle-label:hover{
+            background: var(--primary-600);
+        }
+
         /* Desktop: hamburger hidden */
         @media (min-width: 769px){
             #backdrop{ display:none; }
@@ -153,6 +182,19 @@
             <div id="dataset-controls">
                 <label for="dataset-select" class="control">数据集</label>
                 <select id="dataset-select" class="select"></select>
+            </div>
+            <div id="display-mode-controls">
+                <label class="control">显示模式</label>
+                <div class="toggle-container">
+                    <div class="toggle-switch">
+                        <input type="radio" id="boundary-mode" name="display-mode" value="boundary" checked>
+                        <label for="boundary-mode" class="toggle-label">边界</label>
+                    </div>
+                    <div class="toggle-switch">
+                        <input type="radio" id="point-mode" name="display-mode" value="point">
+                        <label for="point-mode" class="toggle-label">点位</label>
+                    </div>
+                </div>
             </div>
             <div id="filter-controls">
                 <label for="county-filter" class="control">按区县筛选</label>

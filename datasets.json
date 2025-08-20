@@ -3,17 +3,20 @@
     {
       "id": "ningbo_cbd_cgcs2000",
       "name": "宁波商圈（CGCS2000）",
-      "file": "ningbo_cbd_boundaries_cgcs2000.json"
+      "boundary_file": "ningbo_cbd_boundaries_cgcs2000.json",
+      "point_file": "ningbo_cbd_boundaries_cgcs2000.json"
     },
     {
       "id": "ningbo_hospital_cgcs2000",
       "name": "宁波医院边界（CGCS2000）",
-      "file": "ningbo_hospital_boundaries_cgcs2000.json"
+      "boundary_file": "ningbo_hospital_boundaries_cgcs2000.json",
+      "point_file": "ningbo_hospital_boundaries_cgcs2000.json"
     },
     {
       "id": "ningbo_school_cgcs2000",
       "name": "宁波学校边界（CGCS2000）",
-      "file": "ningbo_school_boundaries_cgcs2000.json"
+      "boundary_file": "ningbo_school_boundaries_cgcs2000.json",
+      "point_file": "ningbo_school_boundaries_cgcs2000.json"
     }
   ]
 }
